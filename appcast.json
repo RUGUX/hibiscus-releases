@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.1.0",
-    "build": 1,
-    "commit": "e0c5de2",
-    "notes": "Hibiscus 0.1.0",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.1.0/Hibiscus-0.1.0.zip",
+    "version": "0.2.0",
+    "build": 2,
+    "commit": "4f7d2ca",
+    "notes": "Hibiscus 0.2.0",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.2.0/Hibiscus-0.2.0.zip",
     "minOS": "26.0",
-    "sha256": "1538b9d1371830c8d399dccfc06d3017a70728aaff9d74dc00121d63b326604f"
+    "sha256": "120aba9738efa153a64c84e2f78e6a740935f9b6d517a795e9556a8c0d22b8a6"
   }
 }
