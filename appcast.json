@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.3.0",
-    "build": 3,
-    "commit": "6c8145d",
-    "notes": "Hibiscus 0.3.0",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.3.0/Hibiscus-0.3.0.zip",
+    "version": "0.4.0",
+    "build": 4,
+    "commit": "9e9ef3e",
+    "notes": "Focused Reading, in-app issue reporting, cancellable model downloads, consolidated Dictation settings, and updater reliability improvements.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.4.0/Hibiscus-0.4.0.zip",
     "minOS": "26.0",
-    "sha256": "262bd80c951b44f9b65854c5b8c5d2d31aaa29a9af9ba2fca6370c933d8172cc"
+    "sha256": "871200f344eaf49c902af09c0e180e9c00a93ac3c744a6713b279542054fa932"
   }
 }
