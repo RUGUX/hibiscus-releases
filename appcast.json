@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.4.0",
-    "build": 4,
-    "commit": "9e9ef3e",
-    "notes": "Focused Reading, in-app issue reporting, cancellable model downloads, consolidated Dictation settings, and updater reliability improvements.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.4.0/Hibiscus-0.4.0.zip",
+    "version": "0.5.0",
+    "build": 5,
+    "commit": "91b0d10",
+    "notes": "Hibiscus 0.5.0 adds safer editing and AI proposals: reliable undo and code wrapping, verified note backups and migration protection, anchored AI Replace that survives selection loss, and proposal cards with Apply, Reject, Regenerate, and variant navigation.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.5.0/Hibiscus-0.5.0.zip",
     "minOS": "26.0",
-    "sha256": "871200f344eaf49c902af09c0e180e9c00a93ac3c744a6713b279542054fa932"
+    "sha256": "cabf865d5859f5d5bf64921229073d7b62f5095eb9e4cef29fd50bb96d0e3ebb"
   }
 }
