@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.6.0",
-    "build": 6,
-    "commit": "26f5f99",
-    "notes": "Hibiscus 0.6.0 improves editing and reading, and adds Markdown file import: multi-line selections now format correctly with Bold, Focused Reading handles arrow-key speed controls and window resizing reliably, and dropped .md files open as imported notes.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.6.0/Hibiscus-0.6.0.zip",
-    "minOS": "26.0",
-    "sha256": "fd3631f8d3aa8145e922457637b6b4c03ef0a98631cc86040fa11ac7bcfb1045"
+    "version": "0.7.0",
+    "build": 7,
+    "commit": "97b59c3",
+    "notes": "Hibiscus 0.7.0 adds clearer and more accessible AI proposal transitions, private in-app issue reporting with minimal diagnostics, and signed automatic updates with verified note backups and authenticated downloads.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.7.0/Hibiscus-0.7.0.zip",
+    "minOS": "14.0",
+    "sha256": "7144b5bbab866a17759df550bb6460a95f28e0ca0089f9cb5a6e5d23e6606476"
   }
 }

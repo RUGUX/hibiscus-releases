@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Hibiscus</title>
+        <item>
+            <title>0.7.0</title>
+            <pubDate>Wed, 29 Jul 2026 19:20:05 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Hibiscus 0.7.0 adds clearer and more accessible AI proposal transitions, private in-app issue reporting with minimal diagnostics, and signed automatic updates with verified note backups and authenticated downloads.
+]]></description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.7.0/Hibiscus-0.7.0.zip" length="41751569" type="application/octet-stream" sparkle:edSignature="z2fFXU4XwT7fAHYkkBLYRUF4vp7IVtwmh2YJuTjsX7GWXQQBIeatd52dX/9e5r+3sku4AoM1elEpUV49KqcvDw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 1X8Xre8VWFtCH/Y6CWBY+9kE5rpgI1jqDx6N0EWIdHAKhalExGPXS8ZfUeXtI/XBWQYJzYzw/AVvdUen/wvXBw==
+length: 1513
+-->
