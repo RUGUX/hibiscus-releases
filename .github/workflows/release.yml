@@ -108,6 +108,13 @@ jobs:
           restore-keys: |
             release-spm-${{ runner.os }}-
 
+      - name: Prepare the speech engine artifact
+        run: |
+          if [[ ! -f source/app/ThirdParty/SherpaOnnxSPM/artifacts/sherpa-onnx.xcframework/macos-arm64_x86_64/libsherpa-onnx.a ]]; then
+            cd source/app/ThirdParty/SherpaOnnxSPM
+            bash fetch-artifact.sh
+          fi
+
       - name: Run issue-report server contract
         uses: denoland/setup-deno@v2
         with:
