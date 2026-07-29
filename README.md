@@ -14,8 +14,10 @@ are public).
 
 Repository maintainers publish from **Actions → Release Hibiscus → Run
 workflow** on `main`. Enter the version, channel, and release notes. The
-production environment runs the private source repo's complete Mac, Sparkle,
-and issue-report gates before it builds, signs, and publishes anything.
+source must first pass the private repository's required CI on `main`. The
+production environment then validates the pinned source, signing key,
+issue-report contract, package, release assets, and both update feeds without
+rerunning the complete Mac suite.
 
 The workflow keeps the Sparkle seed in GitHub Actions secrets, imports it into
 an ephemeral Keychain, uploads release assets first, and pushes both feeds
