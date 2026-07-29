@@ -119,16 +119,10 @@ jobs:
           deno task check
           deno task test
 
-      - name: Run the full Mac gate
+      - name: Verify the pinned release source
         run: |
-          cd source/app
-          xcodegen generate
-          cd ..
-          bash app/test.sh
-          bash scripts/verify-sparkle-upgrades.sh
-          rm -rf app/ThirdParty/MarkdownEngineFork/.build
-          rm -f app/ThirdParty/MarkdownEngineFork/Package.resolved
-          test -z "$(git status --porcelain)"
+          bash -n source/scripts/release.sh
+          test -z "$(git -C source status --porcelain)"
 
       - name: Prepare a temporary release Keychain
         env:
