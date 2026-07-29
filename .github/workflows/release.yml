@@ -1,0 +1,235 @@
+name: Release Hibiscus
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version (for example 0.7.0)
+        required: true
+        type: string
+      channel:
+        description: Release channel
+        required: true
+        default: stable
+        type: choice
+        options:
+          - stable
+          - rc
+      notes:
+        description: Release notes shown in Hibiscus
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hibiscus-production-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Build, sign, and publish
+    runs-on: macos-latest
+    timeout-minutes: 120
+    environment: production
+
+    steps:
+      - name: Validate release request
+        env:
+          VERSION: ${{ inputs.version }}
+          NOTES: ${{ inputs.notes }}
+        run: |
+          set -euo pipefail
+          [[ "${GITHUB_REF}" == "refs/heads/main" ]] || {
+            echo "Release workflow must run from the releases repo main branch."
+            exit 1
+          }
+          [[ "${VERSION}" =~ ^[0-9]+\.[0-9]+\.[0-9]+([.-][A-Za-z0-9.-]+)?$ ]] || {
+            echo "Version must be dotted SemVer, for example 0.7.0."
+            exit 1
+          }
+          [[ -n "${NOTES//[[:space:]]/}" ]] || {
+            echo "Release notes must not be empty."
+            exit 1
+          }
+
+      - name: Check out releases repo
+        uses: actions/checkout@v4
+        with:
+          path: releases
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Check out private Hibiscus source at main
+        uses: actions/checkout@v4
+        with:
+          repository: RUGUX/Hibiscus
+          path: source
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+          ssh-key: ${{ secrets.HIBISCUS_SOURCE_DEPLOY_KEY }}
+
+      - name: Pin both checkouts to clean main branches
+        run: |
+          set -euo pipefail
+          git -C releases checkout -B main origin/main
+          git -C source checkout -B main origin/main
+          test -z "$(git -C releases status --porcelain)"
+          test -z "$(git -C source status --porcelain)"
+          if gh release view "v${{ inputs.version }}" \
+              --repo RUGUX/hibiscus-releases >/dev/null 2>&1; then
+            echo "Release v${{ inputs.version }} already exists."
+            exit 1
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Select the newest Xcode on the image
+        run: |
+          sudo xcode-select -s "$(ls -d /Applications/Xcode*.app | sort -V | tail -n 1)/Contents/Developer"
+          xcodebuild -version
+          sw_vers
+
+      - name: Install xcodegen
+        run: brew install xcodegen
+
+      - name: Cache source packages and speech artifact
+        uses: actions/cache@v4
+        with:
+          path: |
+            source/app/ThirdParty/SherpaOnnxSPM/artifacts
+            source/app/ThirdParty/MarkdownEngineFork/.build
+            source/build/release/SourcePackages
+            ~/Library/Developer/Xcode/DerivedData/**/SourcePackages
+          key: release-spm-${{ runner.os }}-${{ hashFiles('source/app/project.yml') }}
+          restore-keys: |
+            release-spm-${{ runner.os }}-
+
+      - name: Run issue-report server contract
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Verify issue-report server contract
+        working-directory: source/supabase/functions/report-issue
+        run: |
+          deno task check
+          deno task test
+
+      - name: Run the full Mac gate
+        run: |
+          cd source/app
+          xcodegen generate
+          cd ..
+          bash app/test.sh
+          bash scripts/verify-sparkle-upgrades.sh
+          rm -rf app/ThirdParty/MarkdownEngineFork/.build
+          rm -f app/ThirdParty/MarkdownEngineFork/Package.resolved
+          test -z "$(git status --porcelain)"
+
+      - name: Prepare a temporary release Keychain
+        env:
+          SPARKLE_PRIVATE_KEY: ${{ secrets.HIBISCUS_SPARKLE_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          KEYCHAIN_PATH="${RUNNER_TEMP}/hibiscus-release.keychain-db"
+          KEYCHAIN_PASSWORD="$(uuidgen)"
+          SEED_PATH="${RUNNER_TEMP}/hibiscus-sparkle-private-key"
+
+          security create-keychain -p "${KEYCHAIN_PASSWORD}" "${KEYCHAIN_PATH}"
+          security set-keychain-settings -lut 21600 "${KEYCHAIN_PATH}"
+          security unlock-keychain -p "${KEYCHAIN_PASSWORD}" "${KEYCHAIN_PATH}"
+          security default-keychain -s "${KEYCHAIN_PATH}"
+          security list-keychains -d user -s "${KEYCHAIN_PATH}"
+
+          printf '%s\n' "${SPARKLE_PRIVATE_KEY}" > "${SEED_PATH}"
+          chmod 600 "${SEED_PATH}"
+
+          cd source/app
+          xcodegen generate
+          xcodebuild -resolvePackageDependencies \
+            -project Hibiscus.xcodeproj \
+            -scheme Hibiscus \
+            -derivedDataPath "${RUNNER_TEMP}/sparkle-tools"
+          cd ../..
+
+          SPARKLE_BIN="${RUNNER_TEMP}/sparkle-tools/SourcePackages/artifacts/sparkle/Sparkle/bin"
+          test -x "${SPARKLE_BIN}/generate_keys"
+          "${SPARKLE_BIN}/generate_keys" \
+            --account hibiscus \
+            -f "${SEED_PATH}" >/dev/null
+          rm -f "${SEED_PATH}"
+
+          EXPECTED_KEY="$(awk '/SUPublicEDKey:/ {print $2; exit}' source/app/project.yml)"
+          RUNNER_KEY="$("${SPARKLE_BIN}/generate_keys" --account hibiscus -p)"
+          test "${EXPECTED_KEY}" = "${RUNNER_KEY}"
+
+          echo "RELEASE_KEYCHAIN=${KEYCHAIN_PATH}" >> "${GITHUB_ENV}"
+          echo "RELEASE_KEYCHAIN_PASSWORD=${KEYCHAIN_PASSWORD}" >> "${GITHUB_ENV}"
+
+      - name: Build, sign, and publish Hibiscus
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HIBISCUS_RELEASES_REPO: ${{ github.workspace }}/releases
+          HIBISCUS_SPARKLE_ARCHIVES: ${{ runner.temp }}/HibiscusSparkleArchives
+          HIBISCUS_RELEASE_NOTES: ${{ inputs.notes }}
+        working-directory: source
+        run: |
+          set -euo pipefail
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/release.sh "${{ inputs.version }}" "${{ inputs.channel }}"
+
+      - name: Verify the published release and both feeds
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+          CHANNEL: ${{ inputs.channel }}
+        run: |
+          set -euo pipefail
+          gh release view "v${VERSION}" \
+            --repo RUGUX/hibiscus-releases \
+            --json assets \
+            --jq '.assets[].name' > "${RUNNER_TEMP}/release-assets.txt"
+          grep -Fx "Hibiscus-${VERSION}.zip" "${RUNNER_TEMP}/release-assets.txt"
+          grep -Fx "Hibiscus-${VERSION}.dmg" "${RUNNER_TEMP}/release-assets.txt"
+
+          curl --fail --location --silent --show-error \
+            "https://raw.githubusercontent.com/RUGUX/hibiscus-releases/main/appcast.xml" \
+            --output "${RUNNER_TEMP}/appcast.xml"
+          curl --fail --location --silent --show-error \
+            "https://raw.githubusercontent.com/RUGUX/hibiscus-releases/main/appcast.json" \
+            --output "${RUNNER_TEMP}/appcast.json"
+
+          python3 - "${RUNNER_TEMP}/appcast.xml" "${RUNNER_TEMP}/appcast.json" \
+            "${VERSION}" "${CHANNEL}" <<'PY'
+          import json
+          import sys
+          import xml.etree.ElementTree as ET
+
+          xml_path, json_path, version, channel = sys.argv[1:]
+          raw = open(xml_path, "rb").read()
+          assert b"sparkle-signatures:" in raw
+
+          ns = {"s": "http://www.andymatuschak.org/xml-namespaces/sparkle"}
+          root = ET.fromstring(raw)
+          assert any(
+              item.findtext("s:shortVersionString", namespaces=ns) == version
+              for item in root.findall("./channel/item")
+          )
+
+          legacy = json.load(open(json_path))
+          assert legacy[channel]["version"] == version
+          assert legacy[channel]["zip"].endswith(f"/Hibiscus-{version}.zip")
+          print("Published release and both feeds verified.")
+          PY
+
+      - name: Remove the temporary release Keychain
+        if: always()
+        run: |
+          if [[ -n "${RELEASE_KEYCHAIN:-}" ]]; then
+            security delete-keychain "${RELEASE_KEYCHAIN}" || true
+          fi
