@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.0",
-    "build": 8,
-    "commit": "907636f",
-    "notes": "Hibiscus 0.8.0 adds a polished drag-to-Applications installer and a private, on-device writing activity view. Activity stores only daily word totals \u2014 never the text you write.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus-0.8.0.zip",
+    "version": "0.8.1",
+    "build": 9,
+    "commit": "b8f414f",
+    "notes": "Hibiscus 0.8.1 fixes the macOS launch failure in the 0.8.0 ad-hoc release. Sparkle now loads correctly on tester Macs; Activity page and writing-performance fixes are included.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.1/Hibiscus-0.8.1.zip",
     "minOS": "14.0",
-    "sha256": "a53efe8a9dda4a4dccc2ea35048a3df78dc5d9f0dba0f63cab7c11be0278800f"
+    "sha256": "06ed964df27f5a163e0f981593a5d6a4c24a43e93314ec1467f6169bb7431ec6"
   }
 }
