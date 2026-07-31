@@ -30,11 +30,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[Hibiscus 0.7.0 adds clearer and more accessible AI proposal transitions, private in-app issue reporting with minimal diagnostics, and signed automatic updates with verified note backups and authenticated downloads.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus-0.7.0.zip" length="41751569" type="application/octet-stream" sparkle:edSignature="z2fFXU4XwT7fAHYkkBLYRUF4vp7IVtwmh2YJuTjsX7GWXQQBIeatd52dX/9e5r+3sku4AoM1elEpUV49KqcvDw=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.7.0/Hibiscus-0.7.0.zip" length="41751569" type="application/octet-stream" sparkle:edSignature="z2fFXU4XwT7fAHYkkBLYRUF4vp7IVtwmh2YJuTjsX7GWXQQBIeatd52dX/9e5r+3sku4AoM1elEpUV49KqcvDw=="/>
         </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: rq/Rhwnmi0eR7kSwrgZrGohU87hk7YC5F3Z5E0AJThXMvlCIBNfSqqXrYE3GOuiOzZTFnNsMOmR7MOpNPI/QBQ==
+edSignature: kUBYgZdNrCnVE+Fcctk4JtGyBcJq1Ie/jPkuSMoezeV7lmlwdlpk1RD9Eu4WRhm2FMH02mYQRgtH9s6cWZMDDA==
 length: 3007
 -->
