@@ -1,8 +1,25 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Hibiscus</title>
+        <item>
+            <title>0.8.0</title>
+            <pubDate>Thu, 30 Jul 2026 21:30:23 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Hibiscus 0.8.0 adds a polished drag-to-Applications installer and a private, on-device writing activity view. Activity stores only daily word totals — never the text you write.
+]]></description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus-0.8.0.zip" length="41902585" type="application/octet-stream" sparkle:edSignature="UgVB7HIo+UOa2weoVTKOScRtseiJKrJMOqoqBPclcJzi+hFnioEZJ2euyeSEtmyU0zB+kVs09BVRA7MrnJVZBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus8-7.delta" sparkle:deltaFrom="7" length="5029310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WY7PAeRGeopZx5We0Wmuu/8584w8i0t2lBOH4ztllB6LecwMVsAI4/UCDzlNJNDR516+pykanTzCaTCpJV+jBw=="/>
+            </sparkle:deltas>
+        </item>
         <item>
             <title>0.7.0</title>
             <pubDate>Wed, 29 Jul 2026 19:20:05 -0400</pubDate>
@@ -13,10 +30,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[Hibiscus 0.7.0 adds clearer and more accessible AI proposal transitions, private in-app issue reporting with minimal diagnostics, and signed automatic updates with verified note backups and authenticated downloads.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.7.0/Hibiscus-0.7.0.zip" length="41751569" type="application/octet-stream" sparkle:edSignature="z2fFXU4XwT7fAHYkkBLYRUF4vp7IVtwmh2YJuTjsX7GWXQQBIeatd52dX/9e5r+3sku4AoM1elEpUV49KqcvDw=="></enclosure>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus-0.7.0.zip" length="41751569" type="application/octet-stream" sparkle:edSignature="z2fFXU4XwT7fAHYkkBLYRUF4vp7IVtwmh2YJuTjsX7GWXQQBIeatd52dX/9e5r+3sku4AoM1elEpUV49KqcvDw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: 1X8Xre8VWFtCH/Y6CWBY+9kE5rpgI1jqDx6N0EWIdHAKhalExGPXS8ZfUeXtI/XBWQYJzYzw/AVvdUen/wvXBw==
-length: 1513
+</rss>
+<!-- sparkle-signatures:
+edSignature: rq/Rhwnmi0eR7kSwrgZrGohU87hk7YC5F3Z5E0AJThXMvlCIBNfSqqXrYE3GOuiOzZTFnNsMOmR7MOpNPI/QBQ==
+length: 3007
 -->
