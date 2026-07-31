@@ -29,7 +29,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.1/Hibiscus-0.8.0.zip" length="41902585" type="application/octet-stream" sparkle:edSignature="UgVB7HIo+UOa2weoVTKOScRtseiJKrJMOqoqBPclcJzi+hFnioEZJ2euyeSEtmyU0zB+kVs09BVRA7MrnJVZBg=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus-0.8.0.zip" length="41902585" type="application/octet-stream" sparkle:edSignature="UgVB7HIo+UOa2weoVTKOScRtseiJKrJMOqoqBPclcJzi+hFnioEZJ2euyeSEtmyU0zB+kVs09BVRA7MrnJVZBg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus8-7.delta" sparkle:deltaFrom="7" length="5029310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WY7PAeRGeopZx5We0Wmuu/8584w8i0t2lBOH4ztllB6LecwMVsAI4/UCDzlNJNDR516+pykanTzCaTCpJV+jBw=="/>
             </sparkle:deltas>
@@ -42,11 +42,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.1/Hibiscus-0.7.0.zip" length="41751569" type="application/octet-stream" sparkle:edSignature="z2fFXU4XwT7fAHYkkBLYRUF4vp7IVtwmh2YJuTjsX7GWXQQBIeatd52dX/9e5r+3sku4AoM1elEpUV49KqcvDw=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.7.0/Hibiscus-0.7.0.zip" length="41751569" type="application/octet-stream" sparkle:edSignature="z2fFXU4XwT7fAHYkkBLYRUF4vp7IVtwmh2YJuTjsX7GWXQQBIeatd52dX/9e5r+3sku4AoM1elEpUV49KqcvDw=="/>
         </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: E3urgyjO7RUITmGYZ7UAoRlV3FgYTClosEeklPgOu1uIcx2uf33UYDZuKqcGyG+IIF2LR1ysZubQmCfbBM4yCA==
+edSignature: S3//YKCZyNSVEUV7mJ4LLRKfcSnOcIyK5C0eavJG/753e5/e+QPWdtyWYUw7ykUfTNpfYKU4vM+ZFVN0HhCcBA==
 length: 4363
 -->
