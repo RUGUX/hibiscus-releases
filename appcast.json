@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.1",
-    "build": 9,
-    "commit": "b8f414f",
-    "notes": "Hibiscus 0.8.1 fixes the macOS launch failure in the 0.8.0 ad-hoc release. Sparkle now loads correctly on tester Macs; Activity page and writing-performance fixes are included.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.1/Hibiscus-0.8.1.zip",
+    "version": "0.8.2",
+    "build": 10,
+    "commit": "ab4220e",
+    "notes": "Hibiscus 0.8.2 makes large notes, AI streaming, imports, and bulk note actions more responsive; adds Google and OpenRouter model discovery with more reliable settings sync; and hardens note safety with verified SQLite backups, restores, external-attachment integrity, and safer store relocation. It also fixes detached-note title persistence and several macOS path and upgrade edge cases.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus-0.8.2.zip",
     "minOS": "14.0",
-    "sha256": "06ed964df27f5a163e0f981593a5d6a4c24a43e93314ec1467f6169bb7431ec6"
+    "sha256": "81f376c762ff3fd25ae1a66fd7ad7d676bc729cfe591155c595dfc446ccbe2ad"
   }
 }
