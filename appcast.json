@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.2",
-    "build": 10,
-    "commit": "ab4220e",
-    "notes": "Hibiscus 0.8.2 makes large notes, AI streaming, imports, and bulk note actions more responsive; adds Google and OpenRouter model discovery with more reliable settings sync; and hardens note safety with verified SQLite backups, restores, external-attachment integrity, and safer store relocation. It also fixes detached-note title persistence and several macOS path and upgrade edge cases.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus-0.8.2.zip",
+    "version": "0.8.3",
+    "build": 11,
+    "commit": "b2876ce",
+    "notes": "Hibiscus 0.8.3 fixes model search after an OpenRouter key is added.\n\nMulti-word searches such as \u201cclaude sonnet\u201d and \u201cgemini 2.5 pro\u201d now match OpenRouter\u2019s live model catalog correctly. Single-word search behavior remains unchanged.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus-0.8.3.zip",
     "minOS": "14.0",
-    "sha256": "81f376c762ff3fd25ae1a66fd7ad7d676bc729cfe591155c595dfc446ccbe2ad"
+    "sha256": "cde650ca779c589b6d638cce61f0f5a857bf1efead11cc1e9665ca55c83dcb0f"
   }
 }

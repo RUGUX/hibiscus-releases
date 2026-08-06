@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.3</title>
+            <pubDate>Wed, 05 Aug 2026 21:42:03 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Hibiscus 0.8.3 fixes model search after an OpenRouter key is added.
+
+Multi-word searches such as “claude sonnet” and “gemini 2.5 pro” now match OpenRouter’s live model catalog correctly. Single-word search behavior remains unchanged.
+]]></description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus-0.8.3.zip" length="42504405" type="application/octet-stream" sparkle:edSignature="QsdqFG882eF0MLEh+235T8xwoZjHouOnKsNZhDKqn73e/CjwxBnNbptLYbkB6iMz31W0vMS23dOIKlQsYu34CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus11-10.delta" sparkle:deltaFrom="10" length="2703774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AQNU85tFm2MEIenC68q3nvIyvhE9IkaJYxy3/lnk22CL57eYQz1d26pXFUGWSVMBFoFarolRhMLUXGuxOcnWBQ=="/>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus11-9.delta" sparkle:deltaFrom="9" length="6807810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XKrKKNCTTy1diWNn16ACF8sv5HLmV0CuxEeQEngrqAZ0qrgx3LeecmLF4DyhxmpYYe6XkPmpZMjRENdSghDyDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.2</title>
             <pubDate>Tue, 04 Aug 2026 16:29:23 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -15,7 +33,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[Hibiscus 0.8.2 makes large notes, AI streaming, imports, and bulk note actions more responsive; adds Google and OpenRouter model discovery with more reliable settings sync; and hardens note safety with verified SQLite backups, restores, external-attachment integrity, and safer store relocation. It also fixes detached-note title persistence and several macOS path and upgrade edge cases.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus-0.8.2.zip" length="42504768" type="application/octet-stream" sparkle:edSignature="5hV+EEsPowebTOXrCVF5CvUlEyz0qgFw4cJEZPan2DUVzFQS15hxg6Qjm8q/xBmI4XJ/BqplV7MI0CCJ9tbxBw=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus-0.8.2.zip" length="42504768" type="application/octet-stream" sparkle:edSignature="5hV+EEsPowebTOXrCVF5CvUlEyz0qgFw4cJEZPan2DUVzFQS15hxg6Qjm8q/xBmI4XJ/BqplV7MI0CCJ9tbxBw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus10-9.delta" sparkle:deltaFrom="9" length="6776706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gVZ2/Eqb3wV1SwinBG4tkM9PkdoYm3v6tSoUc2jXJKqBxqatVHuBcnyKcydkJaPiY4cyYadWbdKnrWtHETnhDg=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus10-8.delta" sparkle:deltaFrom="8" length="6819662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bb208D7k06hVl8uZz+7nWcMTMFJImThxWsQd0HVYggWlbXHQjjVhg/lof9RJrz/QPCwt1x0lXhDuwvOhss8ZCA=="/>
@@ -31,28 +49,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description sparkle:format="markdown"><![CDATA[Hibiscus 0.8.1 fixes the macOS launch failure in the 0.8.0 ad-hoc release. Sparkle now loads correctly on tester Macs; Activity page and writing-performance fixes are included.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus-0.8.1.zip" length="41904771" type="application/octet-stream" sparkle:edSignature="dyVw6pzHr4zOY5cyhngID/IX5p0ZqAk0LUnWh9y9iWnLrGcI7QyWMFNqyLmPKnXF6hQzZS7G2iMcF7OdD1NjCw=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus-0.8.1.zip" length="41904771" type="application/octet-stream" sparkle:edSignature="dyVw6pzHr4zOY5cyhngID/IX5p0ZqAk0LUnWh9y9iWnLrGcI7QyWMFNqyLmPKnXF6hQzZS7G2iMcF7OdD1NjCw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.1/Hibiscus9-8.delta" sparkle:deltaFrom="8" length="2829930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vOZonrjIjFs4QkRi53JK4mlwgMfwcBiDYwBMTCo1LLgo0P/xFKIdz1FP5KErfGUcS1friIEau1bcRrcT21HpBg=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.1/Hibiscus9-7.delta" sparkle:deltaFrom="7" length="5072742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5oTQJKRsau/D0DhKe28tq52ArDRxMhn/ZZ1fe0V1xlPvGav21+1doyqjXjnZOMYpftKFEtXA+3jXRp6mmPJmCA=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.0</title>
-            <pubDate>Thu, 30 Jul 2026 21:30:23 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus-0.8.0.zip" length="41902585" type="application/octet-stream" sparkle:edSignature="UgVB7HIo+UOa2weoVTKOScRtseiJKrJMOqoqBPclcJzi+hFnioEZJ2euyeSEtmyU0zB+kVs09BVRA7MrnJVZBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.0/Hibiscus8-7.delta" sparkle:deltaFrom="7" length="5029310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WY7PAeRGeopZx5We0Wmuu/8584w8i0t2lBOH4ztllB6LecwMVsAI4/UCDzlNJNDR516+pykanTzCaTCpJV+jBw=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: UCoJMrJ7vC3nGCCHoXbu2AWNehohU/6LnjGAb6hDYRTIi//IW2bkMtF6XjDXCnUE174kIy4/nyXHm7yIC7IqCA==
-length: 5704
+edSignature: YGgjLVTr48eRODPZH9qnJp4tRU1VkHQzUsPGCBVG0TMYxRPcXGp0WJrzBK9S2buFFlxDV7Kxz8jyTphyJX09Bw==
+length: 6437
 -->
