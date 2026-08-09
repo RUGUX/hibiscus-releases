@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.3",
-    "build": 11,
-    "commit": "b2876ce",
-    "notes": "Hibiscus 0.8.3 fixes model search after an OpenRouter key is added.\n\nMulti-word searches such as \u201cclaude sonnet\u201d and \u201cgemini 2.5 pro\u201d now match OpenRouter\u2019s live model catalog correctly. Single-word search behavior remains unchanged.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus-0.8.3.zip",
+    "version": "0.8.4",
+    "build": 12,
+    "commit": "2c8d34e",
+    "notes": "Hibiscus 0.8.4 makes Quick Capture dependable in the background and adds native Finder import.\n\n- \u2318\u21e7U can save notes even when the main Hibiscus window has never opened or has been closed.\n- Capture save failures now show a readable message directly in the capture bar.\n- Finder\u2019s \u201cOpen With\u201d menu now offers Hibiscus for supported text, Markdown, PDF, Word, and rich-text documents without changing the system default app.\n- A new \u201cStart Hibiscus at Login\u201d menu option keeps Quick Capture ready from sign-in. \u2318Q still quits Hibiscus completely.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.4/Hibiscus-0.8.4.zip",
     "minOS": "14.0",
-    "sha256": "cde650ca779c589b6d638cce61f0f5a857bf1efead11cc1e9665ca55c83dcb0f"
+    "sha256": "6dcb8cd74970a5df275aa641b73788c4ee3a0f40de96c87910353ad661f78e9d"
   }
 }
