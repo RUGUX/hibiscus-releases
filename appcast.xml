@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.5</title>
+            <pubDate>Mon, 10 Aug 2026 14:05:12 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.8.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Data-safety hotfix
+
+- Moves Hibiscus's default notes database into an app-specific folder so other unsandboxed macOS apps cannot open or migrate it.
+- Safely copies and verifies existing databases during the upgrade while preserving the original files.
+- Stops in recovery instead of showing an empty database or inserting welcome notes if a migrated store is unexpectedly empty.
+]]></description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.5/Hibiscus-0.8.5.zip" length="42626036" type="application/octet-stream" sparkle:edSignature="ZZFs6AXqa4Lf94EQ1TgFZLTfJg4qCFsRXi537NkGkmzA+rHTfjBP4JwgB4RkfkQE8bDUOkCgevlTbWLvZEUuCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.5/Hibiscus13-12.delta" sparkle:deltaFrom="12" length="4132130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pu6/1ZDwpmYsng1vTQ4k4U4qiQ2PzP70UGF13AHXy723sBjiOMiwRmeSsAZ9uUjU9m71SmSfuKotr2jEDRQLAw=="/>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.5/Hibiscus13-11.delta" sparkle:deltaFrom="11" length="5577518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MFKCkglj1mEqw+6ppr6j5npbTcGAFvS9/7Ab+zS+S5YmbOR6a2a5lVyFEsKBksPHHxbChPBjY6OFXl5wKONWDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.4</title>
             <pubDate>Sun, 09 Aug 2026 14:37:21 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -20,7 +40,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - Finder’s “Open With” menu now offers Hibiscus for supported text, Markdown, PDF, Word, and rich-text documents without changing the system default app.
 - A new “Start Hibiscus at Login” menu option keeps Quick Capture ready from sign-in. ⌘Q still quits Hibiscus completely.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.4/Hibiscus-0.8.4.zip" length="42601318" type="application/octet-stream" sparkle:edSignature="MS+cdeGero9j814OroVcpGJ2YLCStY+IQZGjv+3ZhekStdDFaYMZj5wNdsyxgx1Zr1cQHGV4SmMIY8IQjaBwBw=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.5/Hibiscus-0.8.4.zip" length="42601318" type="application/octet-stream" sparkle:edSignature="MS+cdeGero9j814OroVcpGJ2YLCStY+IQZGjv+3ZhekStdDFaYMZj5wNdsyxgx1Zr1cQHGV4SmMIY8IQjaBwBw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.4/Hibiscus12-11.delta" sparkle:deltaFrom="11" length="5359854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ISZqX2s6V4svJnQjhuFHKhm8G1jyQki8y3lP7dhtIcghgqMGtssg4YeCgaaD4MJYMKw92AigX1fMdyShPMHOAQ=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.4/Hibiscus12-10.delta" sparkle:deltaFrom="10" length="5470018" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/PrRr59Y2q2G2bKHJQnKB2nZ8kOWGpvfliJmcPG3Wa2UI6aGlwJ85kbWtfc+sLKeg7XBW8FM8+AHCtibB3ywDA=="/>
@@ -38,31 +58,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Multi-word searches such as “claude sonnet” and “gemini 2.5 pro” now match OpenRouter’s live model catalog correctly. Single-word search behavior remains unchanged.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.4/Hibiscus-0.8.3.zip" length="42504405" type="application/octet-stream" sparkle:edSignature="QsdqFG882eF0MLEh+235T8xwoZjHouOnKsNZhDKqn73e/CjwxBnNbptLYbkB6iMz31W0vMS23dOIKlQsYu34CQ=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.5/Hibiscus-0.8.3.zip" length="42504405" type="application/octet-stream" sparkle:edSignature="QsdqFG882eF0MLEh+235T8xwoZjHouOnKsNZhDKqn73e/CjwxBnNbptLYbkB6iMz31W0vMS23dOIKlQsYu34CQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus11-10.delta" sparkle:deltaFrom="10" length="2703774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AQNU85tFm2MEIenC68q3nvIyvhE9IkaJYxy3/lnk22CL57eYQz1d26pXFUGWSVMBFoFarolRhMLUXGuxOcnWBQ=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.3/Hibiscus11-9.delta" sparkle:deltaFrom="9" length="6807810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XKrKKNCTTy1diWNn16ACF8sv5HLmV0CuxEeQEngrqAZ0qrgx3LeecmLF4DyhxmpYYe6XkPmpZMjRENdSghDyDQ=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.2</title>
-            <pubDate>Tue, 04 Aug 2026 16:29:23 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[Hibiscus 0.8.2 makes large notes, AI streaming, imports, and bulk note actions more responsive; adds Google and OpenRouter model discovery with more reliable settings sync; and hardens note safety with verified SQLite backups, restores, external-attachment integrity, and safer store relocation. It also fixes detached-note title persistence and several macOS path and upgrade edge cases.
-]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.4/Hibiscus-0.8.2.zip" length="42504768" type="application/octet-stream" sparkle:edSignature="5hV+EEsPowebTOXrCVF5CvUlEyz0qgFw4cJEZPan2DUVzFQS15hxg6Qjm8q/xBmI4XJ/BqplV7MI0CCJ9tbxBw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus10-9.delta" sparkle:deltaFrom="9" length="6776706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gVZ2/Eqb3wV1SwinBG4tkM9PkdoYm3v6tSoUc2jXJKqBxqatVHuBcnyKcydkJaPiY4cyYadWbdKnrWtHETnhDg=="/>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.2/Hibiscus10-8.delta" sparkle:deltaFrom="8" length="6819662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Bb208D7k06hVl8uZz+7nWcMTMFJImThxWsQd0HVYggWlbXHQjjVhg/lof9RJrz/QPCwt1x0lXhDuwvOhss8ZCA=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: omPsnyIoN5dZtbaArIACD54FVqLGFMYeX9EwLj/nK0UltPFFXkret6JBbesrJM/ViZbZ1loM4rbFrASrJ3CCDA==
-length: 6829
+edSignature: EJG9qLLSwm0OcU93bIKXNYzSFOLxjpxKofONJO2hXfaNLsIjW9V8Ba2MfzADcjTXlIoZEwHiWgtnIL+iof0qDw==
+length: 6827
 -->

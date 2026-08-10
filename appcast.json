@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.4",
-    "build": 12,
-    "commit": "2c8d34e",
-    "notes": "Hibiscus 0.8.4 makes Quick Capture dependable in the background and adds native Finder import.\n\n- \u2318\u21e7U can save notes even when the main Hibiscus window has never opened or has been closed.\n- Capture save failures now show a readable message directly in the capture bar.\n- Finder\u2019s \u201cOpen With\u201d menu now offers Hibiscus for supported text, Markdown, PDF, Word, and rich-text documents without changing the system default app.\n- A new \u201cStart Hibiscus at Login\u201d menu option keeps Quick Capture ready from sign-in. \u2318Q still quits Hibiscus completely.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.4/Hibiscus-0.8.4.zip",
+    "version": "0.8.5",
+    "build": 13,
+    "commit": "0286771",
+    "notes": "## Data-safety hotfix\n\n- Moves Hibiscus's default notes database into an app-specific folder so other unsandboxed macOS apps cannot open or migrate it.\n- Safely copies and verifies existing databases during the upgrade while preserving the original files.\n- Stops in recovery instead of showing an empty database or inserting welcome notes if a migrated store is unexpectedly empty.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.5/Hibiscus-0.8.5.zip",
     "minOS": "14.0",
-    "sha256": "6dcb8cd74970a5df275aa641b73788c4ee3a0f40de96c87910353ad661f78e9d"
+    "sha256": "3ba7c6cb38e9551e6005d760b182ae023adfa02b6d846a22f3db83fe5a827c59"
   }
 }
