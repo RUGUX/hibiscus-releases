@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.5",
-    "build": 13,
-    "commit": "0286771",
-    "notes": "## Data-safety hotfix\n\n- Moves Hibiscus's default notes database into an app-specific folder so other unsandboxed macOS apps cannot open or migrate it.\n- Safely copies and verifies existing databases during the upgrade while preserving the original files.\n- Stops in recovery instead of showing an empty database or inserting welcome notes if a migrated store is unexpectedly empty.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.5/Hibiscus-0.8.5.zip",
+    "version": "0.8.6",
+    "build": 14,
+    "commit": "42e7071",
+    "notes": "## Faster note capture\n\n- New Note now places the cursor in the writing area immediately, so you can start typing without an extra click.\n- The empty New Note launcher also focuses its composer automatically.\n- Focus handoff is now resilient to SwiftUI view-mount timing, covering menu, keyboard shortcut, and sidebar creation paths.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.6/Hibiscus-0.8.6.zip",
     "minOS": "14.0",
-    "sha256": "3ba7c6cb38e9551e6005d760b182ae023adfa02b6d846a22f3db83fe5a827c59"
+    "sha256": "9c42d9a4b1cedb5dbd7c9e4a31c098b555c660a189c9b2ddbd829d1a029d2f38"
   }
 }
