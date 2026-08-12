@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.7",
-    "build": 15,
-    "commit": "4f6f034",
-    "notes": "## Personalize Hibiscus, without slowing Settings down\n\n- Choose the original Hibiscus icon or any of 19 alternate icons from Appearance. Alternate Dock icons now match the standard macOS visual size.\n- Settings follows the selected note theme, with polished navigation icons and a more stable Translucency layout.\n- Large OpenRouter catalogs no longer freeze Settings. Search still covers the complete catalog, while the screen renders a fast, focused result set.\n- The installer window now shows the complete drag-to-Applications artwork without clipping.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.7/Hibiscus-0.8.7.zip",
+    "version": "0.8.8",
+    "build": 16,
+    "commit": "53237b8",
+    "notes": "## Refreshed installer\n\n- The drag-to-Applications installer now uses the new Hibiscus gradient artwork while preserving the verified Retina layout.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus-0.8.8.zip",
     "minOS": "14.0",
-    "sha256": "76b927339e4b51a149d4777b8e99c094a7ae13b6a502ec1f87aed9101b946795"
+    "sha256": "1474ec573c0d8b7aad8a758d1bfd6b794443068ee5a5aa1ebf9811d521a05cbf"
   }
 }
