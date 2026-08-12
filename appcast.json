@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.6",
-    "build": 14,
-    "commit": "42e7071",
-    "notes": "## Faster note capture\n\n- New Note now places the cursor in the writing area immediately, so you can start typing without an extra click.\n- The empty New Note launcher also focuses its composer automatically.\n- Focus handoff is now resilient to SwiftUI view-mount timing, covering menu, keyboard shortcut, and sidebar creation paths.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.6/Hibiscus-0.8.6.zip",
+    "version": "0.8.7",
+    "build": 15,
+    "commit": "4f6f034",
+    "notes": "## Personalize Hibiscus, without slowing Settings down\n\n- Choose the original Hibiscus icon or any of 19 alternate icons from Appearance. Alternate Dock icons now match the standard macOS visual size.\n- Settings follows the selected note theme, with polished navigation icons and a more stable Translucency layout.\n- Large OpenRouter catalogs no longer freeze Settings. Search still covers the complete catalog, while the screen renders a fast, focused result set.\n- The installer window now shows the complete drag-to-Applications artwork without clipping.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.7/Hibiscus-0.8.7.zip",
     "minOS": "14.0",
-    "sha256": "9c42d9a4b1cedb5dbd7c9e4a31c098b555c660a189c9b2ddbd829d1a029d2f38"
+    "sha256": "76b927339e4b51a149d4777b8e99c094a7ae13b6a502ec1f87aed9101b946795"
   }
 }
