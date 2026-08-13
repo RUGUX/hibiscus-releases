@@ -6,6 +6,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.9</title>
+            <pubDate>Thu, 13 Aug 2026 15:37:26 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## AI Actions anywhere on your Mac
+
+- Select text in any Mac app and use the Hibiscus menu bar to improve writing, fix grammar, summarize, create a prompt, or run a custom action.
+- Results replace the selected text in place, with completion feedback and session-only action history for undo.
+- Customize visible actions and keyboard shortcuts in Settings, including saved Transformations.
+- The menu uses a native macOS glass panel with clean rounded corners and no popover arrow.
+
+Hibiscus reads only text you explicitly select. Password fields are always blocked, and selected text and action history are not saved to disk.
+]]></description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.9.zip" length="44306423" type="application/octet-stream" sparkle:edSignature="KYRKnknj7qPD2nFn8luSgbjdj/4kzq03wC/vq8qts5ERYeen/criM1R1+GiCUh/kTES7wgadfP17LhYfhdVmCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus17-16.delta" sparkle:deltaFrom="16" length="5891346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+QWyEQKozbKlleEeR8DTwlBlOygdhfkHeO8Gz7cz8dxHdjSpmEgoCCR0QJWZuTn0xJN+FnpVWYjLwFYZaaSIDQ=="/>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus17-15.delta" sparkle:deltaFrom="15" length="5884542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cdcVdga5/voKYxAtbnCCELtesRbKrlkaPQ9DE6ZSRKfp0qcFn/993D7i/PnMdiFUnV8Z8H+GLqeWZz8wU1mwDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.8</title>
             <pubDate>Wed, 12 Aug 2026 19:25:46 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -17,7 +40,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 - The drag-to-Applications installer now uses the new Hibiscus gradient artwork while preserving the verified Retina layout.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus-0.8.8.zip" length="43687932" type="application/octet-stream" sparkle:edSignature="dmzDoOYn5NS9be1tmX9kGp41nHnvNewBSAB2+JqFbDLgKsA2WN2KBmMw34+dVCQ4lEKAP8uvS+A/6kl4e8LFDw=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.8.zip" length="43687932" type="application/octet-stream" sparkle:edSignature="dmzDoOYn5NS9be1tmX9kGp41nHnvNewBSAB2+JqFbDLgKsA2WN2KBmMw34+dVCQ4lEKAP8uvS+A/6kl4e8LFDw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus16-15.delta" sparkle:deltaFrom="15" length="22222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GOI3AjCdedUsn1lqeoHjgj/APVJGYvT9GJU+KqOSUa7O6omg0esJ09v7T1yxqXCE6y8UChznjWF9gqXuhrRZCg=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus16-14.delta" sparkle:deltaFrom="14" length="5749486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qQVUAJJrzBuKtHM1wmrBDR4YemBq2eVhBHIHUgYmZMYCzfIoBiTaarEGU5fqq4pOKPS1J1KJbz0R94pIZm9fCw=="/>
@@ -38,35 +61,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - Large OpenRouter catalogs no longer freeze Settings. Search still covers the complete catalog, while the screen renders a fast, focused result set.
 - The installer window now shows the complete drag-to-Applications artwork without clipping.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus-0.8.7.zip" length="43687920" type="application/octet-stream" sparkle:edSignature="fgtfb/mDki4kxHFBrgcczAC7zgMGwZkG2szIQZpmUQqo0pXTGK9DN89kwMenUu1Tes30ORDSbNeNNQcgRX1lBg=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.7.zip" length="43687920" type="application/octet-stream" sparkle:edSignature="fgtfb/mDki4kxHFBrgcczAC7zgMGwZkG2szIQZpmUQqo0pXTGK9DN89kwMenUu1Tes30ORDSbNeNNQcgRX1lBg=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.7/Hibiscus15-14.delta" sparkle:deltaFrom="14" length="5748606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RBIpiYrcECepvDRdxEXxZ67+Uls5gH5Q/XGlwt+9JfkIbbviZaND8wAxwi6TbS4kfrSM/B1suhDil0Mj9FBlDA=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.7/Hibiscus15-13.delta" sparkle:deltaFrom="13" length="5830866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M3eJnLrtlFOU75fs+4q/y+NCAx3ZKETy2bz7oOKTeUmQZa7KpKuO+tZ3006DapcGeXp5qAlARE9nokCs/WZbCg=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.6</title>
-            <pubDate>Mon, 10 Aug 2026 16:01:33 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.8.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Faster note capture
-
-- New Note now places the cursor in the writing area immediately, so you can start typing without an extra click.
-- The empty New Note launcher also focuses its composer automatically.
-- Focus handoff is now resilient to SwiftUI view-mount timing, covering menu, keyboard shortcut, and sidebar creation paths.
-]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus-0.8.6.zip" length="42629402" type="application/octet-stream" sparkle:edSignature="fkDbXBdIBV1NQ7varwQyqd3xJJBR/ZetOuiiWJeZPgXRPpoVTjHH44Htix+eC/7d5MgK5JeqkYpZefSJUnw1Cw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.6/Hibiscus14-13.delta" sparkle:deltaFrom="13" length="3478046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9w/D8FPB3g/RX3MparV8Evqbcg49+cXdYz+zlkHhy+jdJzKUB5Nuq+LyyyoxiAX/DDg14qtRBHh4Xb/Y+xgzBw=="/>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.6/Hibiscus14-12.delta" sparkle:deltaFrom="12" length="4424598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="et+6nYE+nEPCL/YttQy8DZLu5Ng67knkO/jk53fF8umaFD7VVuC7dwym3QvZiQXmxNNpRgM8coxnOGhCXUYSCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Xk1dpV2LI2dQu1xSPQ4nHjMvgDb9yOq4twa+lwIBjP8zYVrpWe56c6QkC+24hscvgMwFxoaSAB5wKYgvip++BQ==
-length: 6679
+edSignature: K003CuJ/G3m/2/TRvmmdtNeHcwzA35XdLIwrKzFPp+qTY7aS1tjLnR0YZWRM7DDCIVgjaFeRp/s1Rt5IXEX+Ag==
+length: 6972
 -->

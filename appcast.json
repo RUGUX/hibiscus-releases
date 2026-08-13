@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.8",
-    "build": 16,
-    "commit": "53237b8",
-    "notes": "## Refreshed installer\n\n- The drag-to-Applications installer now uses the new Hibiscus gradient artwork while preserving the verified Retina layout.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus-0.8.8.zip",
+    "version": "0.8.9",
+    "build": 17,
+    "commit": "1f9c87c",
+    "notes": "## AI Actions anywhere on your Mac\n\n- Select text in any Mac app and use the Hibiscus menu bar to improve writing, fix grammar, summarize, create a prompt, or run a custom action.\n- Results replace the selected text in place, with completion feedback and session-only action history for undo.\n- Customize visible actions and keyboard shortcuts in Settings, including saved Transformations.\n- The menu uses a native macOS glass panel with clean rounded corners and no popover arrow.\n\nHibiscus reads only text you explicitly select. Password fields are always blocked, and selected text and action history are not saved to disk.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.9.zip",
     "minOS": "14.0",
-    "sha256": "1474ec573c0d8b7aad8a758d1bfd6b794443068ee5a5aa1ebf9811d521a05cbf"
+    "sha256": "fa9b078cbf565746f6163710dc33b50024d71b39669a1c0725e767c10c0a0ea5"
   }
 }
