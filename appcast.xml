@@ -9,7 +9,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <title>0.8.9</title>
             <pubDate>Thu, 13 Aug 2026 15:37:26 -0400</pubDate>
             <link>https://hibiscus.page</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
             <sparkle:version>17</sparkle:version>
             <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -32,7 +31,6 @@ Hibiscus reads only text you explicitly select. Password fields are always block
             <title>0.8.8</title>
             <pubDate>Wed, 12 Aug 2026 19:25:46 -0400</pubDate>
             <link>https://hibiscus.page</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
             <sparkle:version>16</sparkle:version>
             <sparkle:shortVersionString>0.8.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -50,7 +48,6 @@ Hibiscus reads only text you explicitly select. Password fields are always block
             <title>0.8.7</title>
             <pubDate>Wed, 12 Aug 2026 01:19:55 -0400</pubDate>
             <link>https://hibiscus.page</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/RUGUX/hibiscus-releases/releases</sparkle:fullReleaseNotesLink>
             <sparkle:version>15</sparkle:version>
             <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -70,6 +67,6 @@ Hibiscus reads only text you explicitly select. Password fields are always block
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: K003CuJ/G3m/2/TRvmmdtNeHcwzA35XdLIwrKzFPp+qTY7aS1tjLnR0YZWRM7DDCIVgjaFeRp/s1Rt5IXEX+Ag==
-length: 6972
+edSignature: f0HBrH5j+WnrhKPaH1tON31Lzxq7yfRAjYeQJQJI63SuQQ7sDKPGvhBTcpHa4tKWvQs8rvRRnw7peMAF9XVwBQ==
+length: 6597
 -->
