@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.10</title>
+            <pubDate>Thu, 13 Aug 2026 20:03:21 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.8.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[## Reliable AI Actions everywhere
+
+- The menu-bar AI Actions panel now opens, closes, and reopens consistently from both the Hibiscus icon and its global shortcut.
+- Transformations can be created reliably and assigned their own global shortcuts.
+- AI results replace editable selections in place. For read-only text, Hibiscus can copy the result, show it in a result window, or save it as a new note.
+- Activity opens on the newest days, Settings copy is shorter, and all AI provider marks—including Claude—use one consistent system tint.
+]]></description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus-0.8.10.zip" length="44404329" type="application/octet-stream" sparkle:edSignature="57ntRtpezkjY1G5/t+/FL+TAYGYO/R59xgKNZUxfgWwrz6WOW10qI2xI6ucCULCDJy614pbzyy9cZroR3VZzBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus18-17.delta" sparkle:deltaFrom="17" length="4950894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="90bBgNNk4qd1hbBf6wySV3GsefpHercynUxGiBZuEWOCwyd43U+zRQQ3eTmG248nKriWDZK+BlfPp4/BmVTEBw=="/>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus18-16.delta" sparkle:deltaFrom="16" length="6093294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yxt8mWrVGxraPoe+rLtxP/vpGBsyoSEd/xtztEvMx181M9FoEF3KWHCzUqmjHSjpeVsX2rV3uCqgetXil8CvBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.9</title>
             <pubDate>Thu, 13 Aug 2026 15:37:26 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -21,7 +41,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Hibiscus reads only text you explicitly select. Password fields are always blocked, and selected text and action history are not saved to disk.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.9.zip" length="44306423" type="application/octet-stream" sparkle:edSignature="KYRKnknj7qPD2nFn8luSgbjdj/4kzq03wC/vq8qts5ERYeen/criM1R1+GiCUh/kTES7wgadfP17LhYfhdVmCA=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus-0.8.9.zip" length="44306423" type="application/octet-stream" sparkle:edSignature="KYRKnknj7qPD2nFn8luSgbjdj/4kzq03wC/vq8qts5ERYeen/criM1R1+GiCUh/kTES7wgadfP17LhYfhdVmCA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus17-16.delta" sparkle:deltaFrom="16" length="5891346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+QWyEQKozbKlleEeR8DTwlBlOygdhfkHeO8Gz7cz8dxHdjSpmEgoCCR0QJWZuTn0xJN+FnpVWYjLwFYZaaSIDQ=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus17-15.delta" sparkle:deltaFrom="15" length="5884542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cdcVdga5/voKYxAtbnCCELtesRbKrlkaPQ9DE6ZSRKfp0qcFn/993D7i/PnMdiFUnV8Z8H+GLqeWZz8wU1mwDQ=="/>
@@ -38,35 +58,15 @@ Hibiscus reads only text you explicitly select. Password fields are always block
 
 - The drag-to-Applications installer now uses the new Hibiscus gradient artwork while preserving the verified Retina layout.
 ]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.8.zip" length="43687932" type="application/octet-stream" sparkle:edSignature="dmzDoOYn5NS9be1tmX9kGp41nHnvNewBSAB2+JqFbDLgKsA2WN2KBmMw34+dVCQ4lEKAP8uvS+A/6kl4e8LFDw=="/>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus-0.8.8.zip" length="43687932" type="application/octet-stream" sparkle:edSignature="dmzDoOYn5NS9be1tmX9kGp41nHnvNewBSAB2+JqFbDLgKsA2WN2KBmMw34+dVCQ4lEKAP8uvS+A/6kl4e8LFDw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus16-15.delta" sparkle:deltaFrom="15" length="22222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GOI3AjCdedUsn1lqeoHjgj/APVJGYvT9GJU+KqOSUa7O6omg0esJ09v7T1yxqXCE6y8UChznjWF9gqXuhrRZCg=="/>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.8/Hibiscus16-14.delta" sparkle:deltaFrom="14" length="5749486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qQVUAJJrzBuKtHM1wmrBDR4YemBq2eVhBHIHUgYmZMYCzfIoBiTaarEGU5fqq4pOKPS1J1KJbz0R94pIZm9fCw=="/>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.7</title>
-            <pubDate>Wed, 12 Aug 2026 01:19:55 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.8.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[## Personalize Hibiscus, without slowing Settings down
-
-- Choose the original Hibiscus icon or any of 19 alternate icons from Appearance. Alternate Dock icons now match the standard macOS visual size.
-- Settings follows the selected note theme, with polished navigation icons and a more stable Translucency layout.
-- Large OpenRouter catalogs no longer freeze Settings. Search still covers the complete catalog, while the screen renders a fast, focused result set.
-- The installer window now shows the complete drag-to-Applications artwork without clipping.
-]]></description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.7.zip" length="43687920" type="application/octet-stream" sparkle:edSignature="fgtfb/mDki4kxHFBrgcczAC7zgMGwZkG2szIQZpmUQqo0pXTGK9DN89kwMenUu1Tes30ORDSbNeNNQcgRX1lBg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.7/Hibiscus15-14.delta" sparkle:deltaFrom="14" length="5748606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RBIpiYrcECepvDRdxEXxZ67+Uls5gH5Q/XGlwt+9JfkIbbviZaND8wAxwi6TbS4kfrSM/B1suhDil0Mj9FBlDA=="/>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.7/Hibiscus15-13.delta" sparkle:deltaFrom="13" length="5830866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M3eJnLrtlFOU75fs+4q/y+NCAx3ZKETy2bz7oOKTeUmQZa7KpKuO+tZ3006DapcGeXp5qAlARE9nokCs/WZbCg=="/>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: f0HBrH5j+WnrhKPaH1tON31Lzxq7yfRAjYeQJQJI63SuQQ7sDKPGvhBTcpHa4tKWvQs8rvRRnw7peMAF9XVwBQ==
-length: 6597
+edSignature: 5q1ft71Pek6DglxHTLkfHvSBC8aiEwqUPakXbPDHLaApFa+r4ar5MyCUoPgnEU2/svs5BL2OSuj6MbES3VKWCA==
+length: 6591
 -->

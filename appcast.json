@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.9",
-    "build": 17,
-    "commit": "1f9c87c",
-    "notes": "## AI Actions anywhere on your Mac\n\n- Select text in any Mac app and use the Hibiscus menu bar to improve writing, fix grammar, summarize, create a prompt, or run a custom action.\n- Results replace the selected text in place, with completion feedback and session-only action history for undo.\n- Customize visible actions and keyboard shortcuts in Settings, including saved Transformations.\n- The menu uses a native macOS glass panel with clean rounded corners and no popover arrow.\n\nHibiscus reads only text you explicitly select. Password fields are always blocked, and selected text and action history are not saved to disk.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.9.zip",
+    "version": "0.8.10",
+    "build": 18,
+    "commit": "7a7927a",
+    "notes": "## Reliable AI Actions everywhere\n\n- The menu-bar AI Actions panel now opens, closes, and reopens consistently from both the Hibiscus icon and its global shortcut.\n- Transformations can be created reliably and assigned their own global shortcuts.\n- AI results replace editable selections in place. For read-only text, Hibiscus can copy the result, show it in a result window, or save it as a new note.\n- Activity opens on the newest days, Settings copy is shorter, and all AI provider marks\u2014including Claude\u2014use one consistent system tint.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus-0.8.10.zip",
     "minOS": "14.0",
-    "sha256": "fa9b078cbf565746f6163710dc33b50024d71b39669a1c0725e767c10c0a0ea5"
+    "sha256": "4d2cd816b954c1b49eb10f2941e2888e743a250398c449f3d5eaf09a5bf79654"
   }
 }
