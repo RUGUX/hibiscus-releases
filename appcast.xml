@@ -4,6 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.12</title>
+            <pubDate>Mon, 17 Aug 2026 15:29:59 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.8.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown">Fixes an issue where a paid license or 7-day trial could be accepted by the server but fail to unlock Hibiscus on some Macs.
+
+Activation now safely falls back to a compatible encrypted Keychain store when macOS rejects the preferred Keychain write, and displays a clear secure-storage message if saving still fails.
+
+Existing purchases remain valid. If activation previously failed, install this update and activate again with the same license key.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus-0.8.12.zip" length="47391806" type="application/octet-stream" sparkle:edSignature="AgG10CXXctBjErj4hmD1+ck8l2WiiZS5wSZ1HesHLyv0cHA8zkcmBF53ED8pbhSyFntRggDARKL6kKpNXWtxDQ=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus20-19.delta" sparkle:deltaFrom="19" length="2171098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LxFeD+f4hoJlOyy+5/9xi2I9WZfd4CKywhFcZZ+dcxNOhl2cQto18z3idAvEc5hBc7y0f21bdZ1zVBtcKqXmBQ=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus20-18.delta" sparkle:deltaFrom="18" length="16640190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+lzl1KwTebmOkW0kgxCiAr5MkXJN5OQhW21wBk4DAwRJPyTVIgUGk1py0yOe59JcAK7mCPwF9zxKr7Twlst7Dw=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.11</title>
             <pubDate>Mon, 17 Aug 2026 13:36:27 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -34,30 +53,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus18-16.delta" sparkle:deltaFrom="16" length="6093294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yxt8mWrVGxraPoe+rLtxP/vpGBsyoSEd/xtztEvMx181M9FoEF3KWHCzUqmjHSjpeVsX2rV3uCqgetXil8CvBw=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.9</title>
-            <pubDate>Thu, 13 Aug 2026 15:37:26 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.8.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">## AI Actions anywhere on your Mac
-
-- Select text in any Mac app and use the Hibiscus menu bar to improve writing, fix grammar, summarize, create a prompt, or run a custom action.
-- Results replace the selected text in place, with completion feedback and session-only action history for undo.
-- Customize visible actions and keyboard shortcuts in Settings, including saved Transformations.
-- The menu uses a native macOS glass panel with clean rounded corners and no popover arrow.
-
-Hibiscus reads only text you explicitly select. Password fields are always blocked, and selected text and action history are not saved to disk.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus-0.8.9.zip" length="44306423" type="application/octet-stream" sparkle:edSignature="KYRKnknj7qPD2nFn8luSgbjdj/4kzq03wC/vq8qts5ERYeen/criM1R1+GiCUh/kTES7wgadfP17LhYfhdVmCA=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus17-16.delta" sparkle:deltaFrom="16" length="5891346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+QWyEQKozbKlleEeR8DTwlBlOygdhfkHeO8Gz7cz8dxHdjSpmEgoCCR0QJWZuTn0xJN+FnpVWYjLwFYZaaSIDQ=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.9/Hibiscus17-15.delta" sparkle:deltaFrom="15" length="5884542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cdcVdga5/voKYxAtbnCCELtesRbKrlkaPQ9DE6ZSRKfp0qcFn/993D7i/PnMdiFUnV8Z8H+GLqeWZz8wU1mwDQ=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7AELNhx//tb7G4k/H4xMAt5GKolmHHznLoewAPkqlslY0DMnMxPvPtIwA/lHzqqgRa6rpdMfF9Z46DpiUl3SAQ==
-length: 5912
+edSignature: /hBsFIITD4ChojvELM+ZyeryqgkgxCAfLfdPR+CuQ4ZqN2IzzspBEuqbSMSVub7KcRu+FAhKUISIPN+axuFCBA==
+length: 5741
 -->

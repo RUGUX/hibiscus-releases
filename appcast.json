@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.11",
-    "build": 19,
-    "commit": "2822d70",
-    "notes": "Adds a secure seven-day trial and perpetual Founder/Lifetime licensing, a redesigned first-run and Settings experience, system-wide AI Actions, improved compact dictation and Quick Capture permissions, and modern Keychain storage. Hibiscus is now Developer ID signed and Apple notarized.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.11/Hibiscus-0.8.11.zip",
+    "version": "0.8.12",
+    "build": 20,
+    "commit": "6958bdb",
+    "notes": "Fixes an issue where a paid license or 7-day trial could be accepted by the server but fail to unlock Hibiscus on some Macs.\n\nActivation now safely falls back to a compatible encrypted Keychain store when macOS rejects the preferred Keychain write, and displays a clear secure-storage message if saving still fails.\n\nExisting purchases remain valid. If activation previously failed, install this update and activate again with the same license key.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus-0.8.12.zip",
     "minOS": "14.0",
-    "sha256": "3dbb6507217dff1b450cca0fda02be3d573a5d6b973cd8a363b349d5bde40d7f"
+    "sha256": "1977fa1a0829243d8d5ebc371346ef2a9e5c968540c8cb1c74d4a70227590481"
   }
 }
