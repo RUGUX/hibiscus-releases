@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.10",
-    "build": 18,
-    "commit": "7a7927a",
-    "notes": "## Reliable AI Actions everywhere\n\n- The menu-bar AI Actions panel now opens, closes, and reopens consistently from both the Hibiscus icon and its global shortcut.\n- Transformations can be created reliably and assigned their own global shortcuts.\n- AI results replace editable selections in place. For read-only text, Hibiscus can copy the result, show it in a result window, or save it as a new note.\n- Activity opens on the newest days, Settings copy is shorter, and all AI provider marks\u2014including Claude\u2014use one consistent system tint.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.10/Hibiscus-0.8.10.zip",
+    "version": "0.8.11",
+    "build": 19,
+    "commit": "2822d70",
+    "notes": "Adds a secure seven-day trial and perpetual Founder/Lifetime licensing, a redesigned first-run and Settings experience, system-wide AI Actions, improved compact dictation and Quick Capture permissions, and modern Keychain storage. Hibiscus is now Developer ID signed and Apple notarized.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.11/Hibiscus-0.8.11.zip",
     "minOS": "14.0",
-    "sha256": "4d2cd816b954c1b49eb10f2941e2888e743a250398c449f3d5eaf09a5bf79654"
+    "sha256": "3dbb6507217dff1b450cca0fda02be3d573a5d6b973cd8a363b349d5bde40d7f"
   }
 }
