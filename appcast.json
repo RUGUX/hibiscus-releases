@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.13",
-    "build": 21,
-    "commit": "cae027f",
-    "notes": "License activation and trial reliability hotfix.\n\n- License keys now work when pasted with typographic dashes, invisible formatting, or without the HIB prefix.\n- Eligible 7-day trials now work more reliably on shared networks.\n- If both licensed devices are occupied, you can verify your purchase email, remove an old device, and activate this Mac without waiting for support.\n- Activation errors are clearer and guide you to the right recovery step.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.13/Hibiscus-0.8.13.zip",
+    "version": "0.8.14",
+    "build": 22,
+    "commit": "2ed6f08",
+    "notes": "Fixes license activation and trial recovery.\n\n- Paid licenses now remain active after successful verification.\n- Seven-day trials can recover safely if setup was interrupted before the activation was saved.\n- Secure-storage failures now roll back cleanly instead of discarding a valid activation.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.14/Hibiscus-0.8.14.zip",
     "minOS": "14.0",
-    "sha256": "26e307b3af5fb55c4134337a296c7aa19244a61bd0d237b871e4033b81bf0fff"
+    "sha256": "883e56a4255f2ed765e27b09021356dfa96fd12b66b6098db3432d01f745cd76"
   }
 }

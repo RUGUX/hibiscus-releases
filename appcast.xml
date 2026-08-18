@@ -4,6 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.14</title>
+            <pubDate>Tue, 18 Aug 2026 12:54:16 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.8.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown">Fixes license activation and trial recovery.
+
+- Paid licenses now remain active after successful verification.
+- Seven-day trials can recover safely if setup was interrupted before the activation was saved.
+- Secure-storage failures now roll back cleanly instead of discarding a valid activation.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.14/Hibiscus-0.8.14.zip" length="47401528" type="application/octet-stream" sparkle:edSignature="X76Jsn8amYA9AQTlMyZmkrXB5HCisi0ahFSNSTEsOJBXaandoqzxeW5fZbFOpaXXnSrDxdZesyRb5eqvji8UBw=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.14/Hibiscus22-21.delta" sparkle:deltaFrom="21" length="1952538" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Q/m32GNPM9FgHSL1UHPwAGjJbJtm+fv4/6aiepF6Xifiu5vO3otKwnmArUKdiW+VzOnjkPcCCvWSwPSPWLI9Ag=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.14/Hibiscus22-20.delta" sparkle:deltaFrom="20" length="2590314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KySsuQg8jLCJMgasBogO1nr0T4hVm2ryDTwby6+pQU+vvh3Obw1fs/JfPL/KEYPbahHhHKeNzQ/c81YYh1aXCA=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.13</title>
             <pubDate>Tue, 18 Aug 2026 11:09:17 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -36,17 +55,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus20-18.delta" sparkle:deltaFrom="18" length="16640190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+lzl1KwTebmOkW0kgxCiAr5MkXJN5OQhW21wBk4DAwRJPyTVIgUGk1py0yOe59JcAK7mCPwF9zxKr7Twlst7Dw=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.11</title>
-            <pubDate>Mon, 17 Aug 2026 13:36:27 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.8.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.11/Hibiscus-0.8.11.zip" length="47378826" type="application/octet-stream" sparkle:edSignature="hfLxbvpMiK6xEHfpaOkvbThk32B6oqMhSxCKbQrtuVk0CD/ERGmb98X9lHEhNiky7qStLwuUoULXGuO0R8tXAw=="></enclosure>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: O7QRHNCEZoTAlv4/AQGHk3dfiz5V10tWnnV9bH/ksPnFT19Lyu4lBW/Zhs50e9fA8tD3XVTKPmN83zDzHwTrDQ==
-length: 4779
+edSignature: X0gza9ULBOD/wgsIrKEsVTefIiLDu5ar8eTOvOOQaFFyzM172HTgvrG3gz3DMvbbHn2e7XHdVLewV/JssXMbCA==
+length: 6043
 -->
