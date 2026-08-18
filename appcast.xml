@@ -4,6 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.16</title>
+            <pubDate>Tue, 18 Aug 2026 15:43:47 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.8.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown">Fixes AI provider API keys being rejected immediately after they were saved. OpenAI, Anthropic, Google, OpenRouter, and xAI keys now remain available for validation and first use after secure Keychain migration.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.16/Hibiscus-0.8.16.zip" length="47401384" type="application/octet-stream" sparkle:edSignature="Lp2DFZwbbdNKHeKe8e5cZoZbup2fYgCA0WSJQ4vkOSD+4lsOJ5MA5DbazMKFVX+HpCKWc7HmeRrXnGNmvCuYDQ=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.16/Hibiscus24-23.delta" sparkle:deltaFrom="23" length="2419626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GiqDZ+ow1/33mmzJAiHVjpvitpSPn4jtSLS7itdr8RjyRO+wXtq6/NM2w9EHboOLMj/vo8E1Si76CCmyXJmDDw=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.16/Hibiscus24-22.delta" sparkle:deltaFrom="22" length="2213886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eONIUCg2xtHMrE3Sg+cNO3VZlmJpzWg4FDUiofNEyD2M9gIAb5NVPO7SOVfFQ+RHIH3/MhEFYM7DwD3q5XQKCg=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.15</title>
             <pubDate>Tue, 18 Aug 2026 14:36:19 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -37,28 +52,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.14/Hibiscus22-20.delta" sparkle:deltaFrom="20" length="2590314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KySsuQg8jLCJMgasBogO1nr0T4hVm2ryDTwby6+pQU+vvh3Obw1fs/JfPL/KEYPbahHhHKeNzQ/c81YYh1aXCA=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.13</title>
-            <pubDate>Tue, 18 Aug 2026 11:09:17 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>0.8.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">License activation and trial reliability hotfix.
-
-- License keys now work when pasted with typographic dashes, invisible formatting, or without the HIB prefix.
-- Eligible 7-day trials now work more reliably on shared networks.
-- If both licensed devices are occupied, you can verify your purchase email, remove an old device, and activate this Mac without waiting for support.
-- Activation errors are clearer and guide you to the right recovery step.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.13/Hibiscus-0.8.13.zip" length="47399899" type="application/octet-stream" sparkle:edSignature="LXAXxnm2fVG94GIFSGKKcdiu+cH6EIKuuqSgOwq5fw39pAPe7DH4K74zgCsqnvznGez3q5PkAyf6jASLtfbABQ=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.13/Hibiscus21-20.delta" sparkle:deltaFrom="20" length="2664142" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d9bhbs8bshnvrvW8lWWAEeV1pInghXuOFGTzIvHQFeVIrVKS6Qg5tsaTbdoX8qwXbsaaL6ceII8Ki7JNP6vWDg=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.13/Hibiscus21-19.delta" sparkle:deltaFrom="19" length="2699570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VfZdyAfKIdIeP0t1uXTOm5KA1+ew+JHra1/DS5EuAuO4q9WkdAVtrhp+WbZxO4JdWgwMawutLpZQqjmZo1OjAA=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: yYHY/mV7aVTagzewnPX9XjMEy5upjH+08fAr3mVtd6USPwLTuiAGYZlj7mRR30DsySMFjKZBcyL3B18tQkR9Cg==
-length: 6234
+edSignature: iCAJaMZGnJSjmYHyPYn1H4zYKiXQSDNeTNjaoilX/aC/awFMJrXnKD0l60JhoTiWrSDoyB0LlbV25XY4frnTBw==
+length: 5995
 -->

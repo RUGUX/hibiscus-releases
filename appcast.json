@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.15",
-    "build": 23,
-    "commit": "80ec788",
-    "notes": "Fixes paid license and 7-day trial activation being incorrectly rolled back during a transient macOS Keychain migration read.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.15/Hibiscus-0.8.15.zip",
+    "version": "0.8.16",
+    "build": 24,
+    "commit": "fab2233",
+    "notes": "Fixes AI provider API keys being rejected immediately after they were saved. OpenAI, Anthropic, Google, OpenRouter, and xAI keys now remain available for validation and first use after secure Keychain migration.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.16/Hibiscus-0.8.16.zip",
     "minOS": "14.0",
-    "sha256": "15264d93d5a3dde8dc7c92030add3206ddcbc12c3cc031ad34eb7e816d35c1d6"
+    "sha256": "06ccd168fb6fc632b7dd01c8ff93bd61f139229771c8b3521344922102c2af6d"
   }
 }
