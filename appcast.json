@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.14",
-    "build": 22,
-    "commit": "2ed6f08",
-    "notes": "Fixes license activation and trial recovery.\n\n- Paid licenses now remain active after successful verification.\n- Seven-day trials can recover safely if setup was interrupted before the activation was saved.\n- Secure-storage failures now roll back cleanly instead of discarding a valid activation.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.14/Hibiscus-0.8.14.zip",
+    "version": "0.8.15",
+    "build": 23,
+    "commit": "80ec788",
+    "notes": "Fixes paid license and 7-day trial activation being incorrectly rolled back during a transient macOS Keychain migration read.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.15/Hibiscus-0.8.15.zip",
     "minOS": "14.0",
-    "sha256": "883e56a4255f2ed765e27b09021356dfa96fd12b66b6098db3432d01f745cd76"
+    "sha256": "15264d93d5a3dde8dc7c92030add3206ddcbc12c3cc031ad34eb7e816d35c1d6"
   }
 }

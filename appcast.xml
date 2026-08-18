@@ -4,6 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.15</title>
+            <pubDate>Tue, 18 Aug 2026 14:36:19 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.8.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown">Fixes paid license and 7-day trial activation being incorrectly rolled back during a transient macOS Keychain migration read.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.15/Hibiscus-0.8.15.zip" length="47400807" type="application/octet-stream" sparkle:edSignature="ZDplUb+WgVQCXoizzLNSG4lwe5x7t9XvO7RTNcUwpEpm/bGYPWFSPVo27yxTaW1dLolyzmpuaDL++SdZERJ5DA=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.15/Hibiscus23-22.delta" sparkle:deltaFrom="22" length="2119098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p+6+k4z7zvJljtGqfssiGLV01iOt4uNJGlYuU6YNHZqr1I4pi/63dZ4Hnj9nuIp12ufflEwJV5FBfu9ytJjBDg=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.15/Hibiscus23-21.delta" sparkle:deltaFrom="21" length="2095394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jt4MIC8/ZICdISw3Fq6Y6f1lpJKqgjGy5AcfStJ1EjnXCSQExlyv+vm+Ju+nTnB6I1kv0epXOti4iA7EKZJRAw=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.14</title>
             <pubDate>Tue, 18 Aug 2026 12:54:16 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -42,21 +57,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.13/Hibiscus21-19.delta" sparkle:deltaFrom="19" length="2699570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VfZdyAfKIdIeP0t1uXTOm5KA1+ew+JHra1/DS5EuAuO4q9WkdAVtrhp+WbZxO4JdWgwMawutLpZQqjmZo1OjAA=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.12</title>
-            <pubDate>Mon, 17 Aug 2026 15:29:59 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.8.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus-0.8.12.zip" length="47391806" type="application/octet-stream" sparkle:edSignature="AgG10CXXctBjErj4hmD1+ck8l2WiiZS5wSZ1HesHLyv0cHA8zkcmBF53ED8pbhSyFntRggDARKL6kKpNXWtxDQ=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus20-19.delta" sparkle:deltaFrom="19" length="2171098" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LxFeD+f4hoJlOyy+5/9xi2I9WZfd4CKywhFcZZ+dcxNOhl2cQto18z3idAvEc5hBc7y0f21bdZ1zVBtcKqXmBQ=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus20-18.delta" sparkle:deltaFrom="18" length="16640190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+lzl1KwTebmOkW0kgxCiAr5MkXJN5OQhW21wBk4DAwRJPyTVIgUGk1py0yOe59JcAK7mCPwF9zxKr7Twlst7Dw=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: X0gza9ULBOD/wgsIrKEsVTefIiLDu5ar8eTOvOOQaFFyzM172HTgvrG3gz3DMvbbHn2e7XHdVLewV/JssXMbCA==
-length: 6043
+edSignature: yYHY/mV7aVTagzewnPX9XjMEy5upjH+08fAr3mVtd6USPwLTuiAGYZlj7mRR30DsySMFjKZBcyL3B18tQkR9Cg==
+length: 6234
 -->
