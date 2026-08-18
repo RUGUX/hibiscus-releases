@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.12",
-    "build": 20,
-    "commit": "6958bdb",
-    "notes": "Fixes an issue where a paid license or 7-day trial could be accepted by the server but fail to unlock Hibiscus on some Macs.\n\nActivation now safely falls back to a compatible encrypted Keychain store when macOS rejects the preferred Keychain write, and displays a clear secure-storage message if saving still fails.\n\nExisting purchases remain valid. If activation previously failed, install this update and activate again with the same license key.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.12/Hibiscus-0.8.12.zip",
+    "version": "0.8.13",
+    "build": 21,
+    "commit": "cae027f",
+    "notes": "License activation and trial reliability hotfix.\n\n- License keys now work when pasted with typographic dashes, invisible formatting, or without the HIB prefix.\n- Eligible 7-day trials now work more reliably on shared networks.\n- If both licensed devices are occupied, you can verify your purchase email, remove an old device, and activate this Mac without waiting for support.\n- Activation errors are clearer and guide you to the right recovery step.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.13/Hibiscus-0.8.13.zip",
     "minOS": "14.0",
-    "sha256": "1977fa1a0829243d8d5ebc371346ef2a9e5c968540c8cb1c74d4a70227590481"
+    "sha256": "26e307b3af5fb55c4134337a296c7aa19244a61bd0d237b871e4033b81bf0fff"
   }
 }
