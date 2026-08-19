@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.17",
-    "build": 25,
-    "commit": "0067b05",
-    "notes": "Hibiscus 0.8.17 makes the first-run experience reliable from the moment the app opens.\n\n- The seven-day trial now starts automatically, survives relaunches, and refreshes signed access before it expires.\n- Setup now configures Quick Capture, AI Actions, AI providers, and Dictation with real readiness checks.\n- New notes open as a clean editor; a note is created only after meaningful input, and Return simply adds a new line.\n- Imports no longer attempt AI work until an AI provider is ready.\n- Fresh installs ignore unrelated legacy databases instead of showing a false notes-recovery warning.\n- The selected Dock icon is restored at the earliest safe point when Hibiscus launches.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.17/Hibiscus-0.8.17.zip",
+    "version": "0.8.18",
+    "build": 26,
+    "commit": "7a1c16e",
+    "notes": "Hibiscus 0.8.18 makes editing and AI workflows more dependable.\n\n- Start a conversation in the right-side Assistant even when no note is open.\n- Replace AI replies predictably: the original selection, the current selection, or the whole note is now targeted explicitly.\n- Delete multiple selected notes with Cmd+Delete without opening them in separate windows.\n- Drop or paste supported documents directly into a note to insert their contents instead of a file path. Images are saved as inline attachments, and drops onto the blank editor create one note.\n- Pin the compatible audio dependency release to keep clean builds reliable.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.18/Hibiscus-0.8.18.zip",
     "minOS": "14.0",
-    "sha256": "0ac4480e65671baea504aad3177d69c04277b365e04e97ed919cb879a3334b68"
+    "sha256": "8174d5e2880ad551368ec0ab1284fe70e7b9c842cc82d2682a04e59063f968af"
   }
 }
