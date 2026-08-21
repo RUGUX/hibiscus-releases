@@ -4,6 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.20</title>
+            <pubDate>Thu, 20 Aug 2026 21:54:59 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.8.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown">Hibiscus 0.8.20 keeps AI provider credentials available after Mac lock, login, wake, or temporary Keychain service interruptions. Existing API keys remain securely stored and become available again without re-entry.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.20/Hibiscus-0.8.20.zip" length="47410400" type="application/octet-stream" sparkle:edSignature="Xaro4J+Bjf36d5YkU9JZhbse1OU/SxQMJPF0xS/bOAG9jqrzBXden7gxb/y7ciSXcNBe406eUeeYGusrobvBAg=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.20/Hibiscus28-27.delta" sparkle:deltaFrom="27" length="1988486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6M1lmGpoRipqOm8FAAABbcX+Dh3xNnBYKELej4wyMyhe/qP9m2GShWDAyUeRDlsbIstD6zEP9pTG2Vqti9OoAA=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.20/Hibiscus28-26.delta" sparkle:deltaFrom="26" length="3046814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1wQ6NYpIXTDB3/439myIHCuZ4S26FWCjKVZ3NPOWSU8FKsOyttNFKcl55GAr7M4FsITtPAk4bktyMV+nulA0BA=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.19</title>
             <pubDate>Thu, 20 Aug 2026 08:34:49 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -48,30 +63,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.18/Hibiscus26-24.delta" sparkle:deltaFrom="24" length="4077062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GK4UQbGH9W782qIPM2JQAmH1dB2QTuRapVwCs63FjWd7PkPpisv2W17lSZDAR85zl3lQ5cAXfaCB8uoGPybzAA=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.17</title>
-            <pubDate>Tue, 18 Aug 2026 20:28:57 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>0.8.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">Hibiscus 0.8.17 makes the first-run experience reliable from the moment the app opens.
-
-- The seven-day trial now starts automatically, survives relaunches, and refreshes signed access before it expires.
-- Setup now configures Quick Capture, AI Actions, AI providers, and Dictation with real readiness checks.
-- New notes open as a clean editor; a note is created only after meaningful input, and Return simply adds a new line.
-- Imports no longer attempt AI work until an AI provider is ready.
-- Fresh installs ignore unrelated legacy databases instead of showing a false notes-recovery warning.
-- The selected Dock icon is restored at the earliest safe point when Hibiscus launches.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.17/Hibiscus-0.8.17.zip" length="47476751" type="application/octet-stream" sparkle:edSignature="k7nD59ehmkCJkoYzEMP+Bc2e9+5uYrXRUabKeeAQLb1SozbRLCp7wVMMeeLTemeVwlvtfvkf3ZdLTQiwglCZDQ=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.17/Hibiscus25-24.delta" sparkle:deltaFrom="24" length="3416030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lls1lVK7ubz+GIlY0WvIEnXlJA0RKchclibrf7HncptyHnU5geO68UlkSIuQQZItBaHFS0r+EMMaoEf0FpcWBw=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.17/Hibiscus25-23.delta" sparkle:deltaFrom="23" length="3439718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Yqz6Nf/tzufJMqzUrbJaSMxaqXEBkSI6B5lNlyeab6fF3W06pkt7QNgKMYPJydcJwii4xJILxKxOTTlsKCpvCA=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Df67Y6IkJNp538Hd2y7YDSleERfc7gKh2BcNJCYxMp4iVeKFYzr048wWCjFjqE0aMiUQT5vOyADuN+8XDZ5kDg==
-length: 7448
+edSignature: 1cRG5J0vZFaJ9sJjxxcS7xk+BevMR2agKKb3R4MMKUW9ZJR8aY+9vxYYyeYy7D25V7H3/fRaS1KPMfi+PGu9Dw==
+length: 6979
 -->

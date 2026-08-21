@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.19",
-    "build": 27,
-    "commit": "07b0ded",
-    "notes": "Hibiscus 0.8.19 makes everyday note capture and editing more reliable.\n\n- Quick Capture now saves consistently, including during first-time setup.\n- New notes stay clean and temporary until you actually start writing.\n- Rapid typing no longer loses the end of the first sentence.\n- Archived notes can be restored by clicking the complete row.\n- Activity now counts words written from a fresh blank note.\n- Shortcut settings detect conflicts across Quick Capture, AI Actions, transformations, and app commands.\n- AI readiness, permissions, update checks, and manual QA builds now report and isolate their state more accurately.\n- Expanded native macOS regression coverage for note creation, Quick Capture, archive restore, Settings, onboarding, and rapid note switching.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.19/Hibiscus-0.8.19.zip",
+    "version": "0.8.20",
+    "build": 28,
+    "commit": "7486427",
+    "notes": "Hibiscus 0.8.20 keeps AI provider credentials available after Mac lock, login, wake, or temporary Keychain service interruptions. Existing API keys remain securely stored and become available again without re-entry.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.20/Hibiscus-0.8.20.zip",
     "minOS": "14.0",
-    "sha256": "f97a5636d0fbb5dae49162248fa8a5487021cfb15b97c94fda479f95ee99eda2"
+    "sha256": "42ab8329053e0620f3d3086fc7e7a98ceca9fe198714f0e43b2c2ed795ec26dc"
   }
 }
