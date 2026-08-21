@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.21",
-    "build": 29,
-    "commit": "cdd48f6",
-    "notes": "Hibiscus 0.8.21 keeps cloud AI provider keys available after you quit and reopen the app. API and dictation keys are accepted only after durable Keychain storage is verified, stale entries can no longer shadow replacements, and temporary Keychain interruptions no longer erase a valid setup. Licensing now preserves paid and trial activations through transient Keychain read misses.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.21/Hibiscus-0.8.21.zip",
+    "version": "0.8.22",
+    "build": 30,
+    "commit": "b60b19d",
+    "notes": "Hibiscus 0.8.22 fixes provider API keys disappearing after quit and relaunch. Keychain cleanup now explicitly targets the legacy Keychain and can no longer delete the newly verified modern item.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.22/Hibiscus-0.8.22.zip",
     "minOS": "14.0",
-    "sha256": "0d37f97404105f518dcbf40187dc40cb0854fa018bf554e7bbcd8eb43e9a747d"
+    "sha256": "3ed3aa50ec1b2a046715669331e9e811a72573b3c0fbd259f372b8a405fc8a65"
   }
 }
