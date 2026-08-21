@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.20",
-    "build": 28,
-    "commit": "7486427",
-    "notes": "Hibiscus 0.8.20 keeps AI provider credentials available after Mac lock, login, wake, or temporary Keychain service interruptions. Existing API keys remain securely stored and become available again without re-entry.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.20/Hibiscus-0.8.20.zip",
+    "version": "0.8.21",
+    "build": 29,
+    "commit": "cdd48f6",
+    "notes": "Hibiscus 0.8.21 keeps cloud AI provider keys available after you quit and reopen the app. API and dictation keys are accepted only after durable Keychain storage is verified, stale entries can no longer shadow replacements, and temporary Keychain interruptions no longer erase a valid setup. Licensing now preserves paid and trial activations through transient Keychain read misses.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.21/Hibiscus-0.8.21.zip",
     "minOS": "14.0",
-    "sha256": "42ab8329053e0620f3d3086fc7e7a98ceca9fe198714f0e43b2c2ed795ec26dc"
+    "sha256": "0d37f97404105f518dcbf40187dc40cb0854fa018bf554e7bbcd8eb43e9a747d"
   }
 }
