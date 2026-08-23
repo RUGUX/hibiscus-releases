@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.23",
-    "build": 31,
-    "commit": "d5b34eb",
-    "notes": "Markdown files now open correctly with Hibiscus from Finder\u2019s Open With menu and import their contents when dragged into the editor. This release also restores the standard macOS Markdown document registration and preserves the existing image-drop behavior.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.23/Hibiscus-0.8.23.zip",
+    "version": "0.8.24",
+    "build": 32,
+    "commit": "5a40bfd",
+    "notes": "Hibiscus now shows the original seven-day trial deadline consistently. Refreshing the short-lived signed license no longer makes the trial appear to gain an extra day.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.24/Hibiscus-0.8.24.zip",
     "minOS": "14.0",
-    "sha256": "32fe7c79e9a9c7283b3fc5ce58cf6118cfb1e0a1ddbb3db6955bec5c15de67ab"
+    "sha256": "9737ec40b1ceda81d5d577e227e37e6a74f13eda8d9e85dab07a827841dfd0a6"
   }
 }
