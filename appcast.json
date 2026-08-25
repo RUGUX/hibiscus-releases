@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.24",
-    "build": 32,
-    "commit": "5a40bfd",
-    "notes": "Hibiscus now shows the original seven-day trial deadline consistently. Refreshing the short-lived signed license no longer makes the trial appear to gain an extra day.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.24/Hibiscus-0.8.24.zip",
+    "version": "0.8.25",
+    "build": 33,
+    "commit": "b4ff763",
+    "notes": "Fixed a rare editor race that could remove recent text during rapid Undo and Redo. Manual edits no longer show an incorrect Edited by AI badge.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.25/Hibiscus-0.8.25.zip",
     "minOS": "14.0",
-    "sha256": "9737ec40b1ceda81d5d577e227e37e6a74f13eda8d9e85dab07a827841dfd0a6"
+    "sha256": "358dbfa6fe9c91405e664f6efbd53b1f1c7c1a54dc951018b66b0a5eaef740a8"
   }
 }

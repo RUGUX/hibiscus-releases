@@ -4,6 +4,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.25</title>
+            <pubDate>Tue, 25 Aug 2026 18:58:43 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.8.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown">Fixed a rare editor race that could remove recent text during rapid Undo and Redo. Manual edits no longer show an incorrect Edited by AI badge.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.25/Hibiscus-0.8.25.zip" length="47431311" type="application/octet-stream" sparkle:edSignature="o7E2yWWQ8FQ87QH/DL/mZc9ZzeFPqR5gmoEBQjVBbNW83NKd1qJNQWpHXRzRJ/MINi+y8BMcR55SZ74QaJv6Bg=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.25/Hibiscus33-32.delta" sparkle:deltaFrom="32" length="2082650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2675+LfgHBRIdU1mYJeMpC7sTKuAIvt7F8VCbxYmkHr8y6hb6mq0p5kw8Qn8Kg/gei6K13V7qsd0bxb4N/peAg=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.25/Hibiscus33-31.delta" sparkle:deltaFrom="31" length="2570878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EF3N+tFS0c1jYdaGDr1r26KPHur5e0dmb160IVnpgkMc+hFzeUhqDCYsEWTGInmKwlgyEIPlcEXaR5psVUvoAg=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.24</title>
             <pubDate>Sun, 23 Aug 2026 11:44:08 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -33,23 +48,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.23/Hibiscus31-29.delta" sparkle:deltaFrom="29" length="2309594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GgCQtsvOswvWGmPUrJ5kjBCZn4RHyvS83wbvrriGpFAuw4hrcXGT54iqb6vmVc/wIjc7L7lZlZ+9ygG9V8IwAQ=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.22</title>
-            <pubDate>Fri, 21 Aug 2026 11:10:39 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>0.8.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">Hibiscus 0.8.22 fixes provider API keys disappearing after quit and relaunch. Keychain cleanup now explicitly targets the legacy Keychain and can no longer delete the newly verified modern item.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.22/Hibiscus-0.8.22.zip" length="47423263" type="application/octet-stream" sparkle:edSignature="SewkgveJeiwzl2E5CrGeC2ircSKCGGBKp/nllIQItM/GCIZek8epsbQq4qAhEtFSwr93iz2vCzsAdX+5CpLnCg=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.22/Hibiscus30-29.delta" sparkle:deltaFrom="29" length="2162646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vQeWOCv9hyXoj+rlMyCw7dkNJ1kU1TE0XW9ch956QLopgk8Hx2YQE4Vhdzyt0jvyMCmMYPUmNqNboWmgQfHqBw=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.22/Hibiscus30-28.delta" sparkle:deltaFrom="28" length="2784750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Jky3l/dNDUMUtJFPrcCVhtW6EHIfNAmQLIBDpq5YnohEhfhiNYOF/aaV8NRh/ytRRI+inm/UaPCoklnncq7wBA=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: bVRkmjQeIIfqJVydNjXYs6XgLiGloEnRNEXcIt7TuOp/8r8OgG5e8H8Txoj9JVrioe3TWTtQbE/IWLTVWAuWCA==
-length: 5983
+edSignature: 4UkBxmJ6ZywlMUx5XJtw0q213IZG7aOllmmjkPtlFDBSmd5JjiRZMFWZTid3ILpnp46y7MDwNmCdfLDFF7r3Dw==
+length: 5932
 -->
