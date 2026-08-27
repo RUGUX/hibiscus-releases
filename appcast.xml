@@ -4,6 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.26</title>
+            <pubDate>Thu, 27 Aug 2026 13:18:39 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>0.8.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown">Hibiscus 0.8.26 makes the main writing surface feel native and uninterrupted.
+
+- The editor is now flat and edge-to-edge, with identical one-pixel dividers and generous invisible resize targets on both sides.
+- The formatting toolbar keeps its rounded ends and uses the native Liquid Glass geometry on macOS 26.
+- Typing `-&gt;` or `&lt;-` now creates the matching right or left arrow without breaking undo.
+- Alternative Dock icons retain the standard macOS icon footprint.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus-0.8.26.zip" length="47430622" type="application/octet-stream" sparkle:edSignature="CZ3Tu//uWrr694OqTxVA4moeHujSgSEBqiWHO24mtKG4AUJXuic09PFPV/gXNMaWHXl2NQ7h2e9v0dXifbQnAA=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus34-33.delta" sparkle:deltaFrom="33" length="2765330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pMLf7/rsAwNsd9y+yPYp+qF8bN4nsEApihBFGerAqhyq0oBIZuX8c0LnEJPXJbEFmFADbQnItQfE5DcLCKIADg=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus34-32.delta" sparkle:deltaFrom="32" length="2796374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XKY/dliZlBMHh7RHC9NA1y8zKwTBuLq63rkSSI8HEnFMdHDSuC4RQp5bJa3nLKLqXg5G3DzPMHa1nLgP8mv0Dw=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.25</title>
             <pubDate>Tue, 25 Aug 2026 18:58:43 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -33,23 +53,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.24/Hibiscus32-30.delta" sparkle:deltaFrom="30" length="2539274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6bp8Bxil+QaP3yuUeEpTkStP8k4DvElRyeyG+1rgEhEeR0wkny0nUOoidK6Gi4NYy3fd0NpW6W49Ap2jrmOfBA=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.23</title>
-            <pubDate>Fri, 21 Aug 2026 18:52:46 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>31</sparkle:version>
-            <sparkle:shortVersionString>0.8.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">Markdown files now open correctly with Hibiscus from Finder’s Open With menu and import their contents when dragged into the editor. This release also restores the standard macOS Markdown document registration and preserves the existing image-drop behavior.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.23/Hibiscus-0.8.23.zip" length="47426227" type="application/octet-stream" sparkle:edSignature="yCYO3ytLCNfUOqzpUcNzA0RC71k/yV8r8MpmVmP+LZ4zLs2dxg8aa5cbK9JVpUvkSXNU+C/fxQQH/ldw3HlMBw=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.23/Hibiscus31-30.delta" sparkle:deltaFrom="30" length="2478570" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CKQbeH3YzvVLRYrkCIG5FBlz2fIFvbovg9CFL9o5yfIZTrT0oHJkRu16s+qSK+q0OnjqGSbrXgww4dgiZJJICw=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.23/Hibiscus31-29.delta" sparkle:deltaFrom="29" length="2309594" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GgCQtsvOswvWGmPUrJ5kjBCZn4RHyvS83wbvrriGpFAuw4hrcXGT54iqb6vmVc/wIjc7L7lZlZ+9ygG9V8IwAQ=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 4UkBxmJ6ZywlMUx5XJtw0q213IZG7aOllmmjkPtlFDBSmd5JjiRZMFWZTid3ILpnp46y7MDwNmCdfLDFF7r3Dw==
-length: 5932
+edSignature: 6Q2IB8Gc+0pRkqYyEkiB3khGKhS7Ws/lZKNO8J47lTObN5wAwS+MxPx7u/K2beGnZ0Os/fzsmls+p69Ug2AtBQ==
+length: 6147
 -->
