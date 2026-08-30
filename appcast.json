@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.26",
-    "build": 34,
-    "commit": "67415b1",
-    "notes": "Hibiscus 0.8.26 makes the main writing surface feel native and uninterrupted.\n\n- The editor is now flat and edge-to-edge, with identical one-pixel dividers and generous invisible resize targets on both sides.\n- The formatting toolbar keeps its rounded ends and uses the native Liquid Glass geometry on macOS 26.\n- Typing `->` or `<-` now creates the matching right or left arrow without breaking undo.\n- Alternative Dock icons retain the standard macOS icon footprint.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus-0.8.26.zip",
+    "version": "0.8.27",
+    "build": 35,
+    "commit": "9289d2c",
+    "notes": "Hibiscus 0.8.27 fixes a license recovery problem that could affect customers updating from older signed builds.\n\n- An existing Mac is no longer mistaken for a new device when its legacy Keychain item is temporarily unavailable.\n- Paid licenses affected by duplicate device seats from Hibiscus 0.8.11\u20130.8.16 can now recover safely by activating again with the original license key.\n- Normal two-Mac seat limits and verified device management remain unchanged.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.27/Hibiscus-0.8.27.zip",
     "minOS": "14.0",
-    "sha256": "d3b033df22d52daf59d2e3acc692220b6623979840c8b2111fb98253de600ee2"
+    "sha256": "db1dec6a992b0a8c9e153da54661ed9bb8d540c99b5a0193f47bea067b98892d"
   }
 }
