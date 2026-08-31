@@ -4,6 +4,45 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.28</title>
+            <pubDate>Sun, 30 Aug 2026 23:36:25 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>0.8.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"># Hibiscus 0.8.28
+
+This release restores the fast, predictable note-creation flow and keeps
+Hibiscus ready when you want to capture something quickly.
+
+- Command-N and New Note now create an Untitled note immediately in the normal
+  editor. You can create as many new notes as you need, with reliable focus and
+  uninterrupted typing.
+- The extra screen before the untitled editor has been removed.
+- Command-Delete now deletes a multi-note selection through one in-place
+  confirmation instead of opening each note in a separate window.
+- Quick Capture keeps your text when you choose Improve or another AI action.
+  Ordinary edits are no longer incorrectly labeled “Edited by AI.”
+- Settings can now show or hide the Hibiscus menu-bar icon without disabling
+  global shortcuts.
+- Hibiscus can remain available after its windows are closed, keeping Quick
+  Capture and global shortcuts ready. Choosing Quit still exits the app.
+- Compact on-device Apple dictation now stays in its focused recording flow,
+  including while microphone and speech permissions are being granted.
+- The Founder offer is now the first and default perpetual-license option.
+  Checkout uses fixed USD pricing, supports promotion codes, and works from the
+  Hibiscus website.
+- License delivery is now durable and retryable. Approved no-cost family
+  promotions are handled safely, while unrelated Stripe checkout events are
+  ignored.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus-0.8.28.zip" length="47440802" type="application/octet-stream" sparkle:edSignature="5T7T2gOolfKVQyWjMqfjyGetfSF0dL4Du2DmE1Z/bwjnzi+zHiHjoc4Y6y+RmVIr10alY6B4JqpideKDGMpwBw=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus36-35.delta" sparkle:deltaFrom="35" length="3161310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kVDrymKMW8Imw7/+fFiD4CLyFGIwdAJUmHodoaAOWONTzETu54F6WtJoYi3nZryoeiMMG/2K3KieZ9ThADsQAg=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus36-34.delta" sparkle:deltaFrom="34" length="3127894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pfDHSM2H/5gqdac5qz2KMkAt1b16d6FzFizbrmRIbXiw/y/QcNHA26HzkYUAHZ5BKBmQH1wRMWFRcqRGugDXAw=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.27</title>
             <pubDate>Sun, 30 Aug 2026 14:51:21 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -42,23 +81,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus34-32.delta" sparkle:deltaFrom="32" length="2796374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XKY/dliZlBMHh7RHC9NA1y8zKwTBuLq63rkSSI8HEnFMdHDSuC4RQp5bJa3nLKLqXg5G3DzPMHa1nLgP8mv0Dw=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.25</title>
-            <pubDate>Tue, 25 Aug 2026 18:58:43 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>0.8.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">Fixed a rare editor race that could remove recent text during rapid Undo and Redo. Manual edits no longer show an incorrect Edited by AI badge.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.25/Hibiscus-0.8.25.zip" length="47431311" type="application/octet-stream" sparkle:edSignature="o7E2yWWQ8FQ87QH/DL/mZc9ZzeFPqR5gmoEBQjVBbNW83NKd1qJNQWpHXRzRJ/MINi+y8BMcR55SZ74QaJv6Bg=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.25/Hibiscus33-32.delta" sparkle:deltaFrom="32" length="2082650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2675+LfgHBRIdU1mYJeMpC7sTKuAIvt7F8VCbxYmkHr8y6hb6mq0p5kw8Qn8Kg/gei6K13V7qsd0bxb4N/peAg=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.25/Hibiscus33-31.delta" sparkle:deltaFrom="31" length="2570878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EF3N+tFS0c1jYdaGDr1r26KPHur5e0dmb160IVnpgkMc+hFzeUhqDCYsEWTGInmKwlgyEIPlcEXaR5psVUvoAg=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: G+stR6Ujz4I+XT0jj1xcyzrjh881bbQkJSeQQifyU4U7LwPPqpQkX+XYA9K73QyAt7CKdI625DG3K25Olai6DA==
-length: 6440
+edSignature: 9fhuf34a5ee2tRwugSb4xDMcXrzm0r56IsVyLDOuPLJVCjWkpwcvdKKAWUU3jIp2VgGrz55hN7LK4HAb26zYAA==
+length: 7712
 -->

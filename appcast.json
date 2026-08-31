@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.27",
-    "build": 35,
-    "commit": "9289d2c",
-    "notes": "Hibiscus 0.8.27 fixes a license recovery problem that could affect customers updating from older signed builds.\n\n- An existing Mac is no longer mistaken for a new device when its legacy Keychain item is temporarily unavailable.\n- Paid licenses affected by duplicate device seats from Hibiscus 0.8.11\u20130.8.16 can now recover safely by activating again with the original license key.\n- Normal two-Mac seat limits and verified device management remain unchanged.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.27/Hibiscus-0.8.27.zip",
+    "version": "0.8.28",
+    "build": 36,
+    "commit": "f57e753",
+    "notes": "# Hibiscus 0.8.28\n\nThis release restores the fast, predictable note-creation flow and keeps\nHibiscus ready when you want to capture something quickly.\n\n- Command-N and New Note now create an Untitled note immediately in the normal\n  editor. You can create as many new notes as you need, with reliable focus and\n  uninterrupted typing.\n- The extra screen before the untitled editor has been removed.\n- Command-Delete now deletes a multi-note selection through one in-place\n  confirmation instead of opening each note in a separate window.\n- Quick Capture keeps your text when you choose Improve or another AI action.\n  Ordinary edits are no longer incorrectly labeled \u201cEdited by AI.\u201d\n- Settings can now show or hide the Hibiscus menu-bar icon without disabling\n  global shortcuts.\n- Hibiscus can remain available after its windows are closed, keeping Quick\n  Capture and global shortcuts ready. Choosing Quit still exits the app.\n- Compact on-device Apple dictation now stays in its focused recording flow,\n  including while microphone and speech permissions are being granted.\n- The Founder offer is now the first and default perpetual-license option.\n  Checkout uses fixed USD pricing, supports promotion codes, and works from the\n  Hibiscus website.\n- License delivery is now durable and retryable. Approved no-cost family\n  promotions are handled safely, while unrelated Stripe checkout events are\n  ignored.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus-0.8.28.zip",
     "minOS": "14.0",
-    "sha256": "db1dec6a992b0a8c9e153da54661ed9bb8d540c99b5a0193f47bea067b98892d"
+    "sha256": "53481477f2606d7350fe859d23d9741fcbe0635f1f5a4d4e58064dcb54a9ecee"
   }
 }
