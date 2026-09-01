@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.28",
-    "build": 36,
-    "commit": "f57e753",
-    "notes": "# Hibiscus 0.8.28\n\nThis release restores the fast, predictable note-creation flow and keeps\nHibiscus ready when you want to capture something quickly.\n\n- Command-N and New Note now create an Untitled note immediately in the normal\n  editor. You can create as many new notes as you need, with reliable focus and\n  uninterrupted typing.\n- The extra screen before the untitled editor has been removed.\n- Command-Delete now deletes a multi-note selection through one in-place\n  confirmation instead of opening each note in a separate window.\n- Quick Capture keeps your text when you choose Improve or another AI action.\n  Ordinary edits are no longer incorrectly labeled \u201cEdited by AI.\u201d\n- Settings can now show or hide the Hibiscus menu-bar icon without disabling\n  global shortcuts.\n- Hibiscus can remain available after its windows are closed, keeping Quick\n  Capture and global shortcuts ready. Choosing Quit still exits the app.\n- Compact on-device Apple dictation now stays in its focused recording flow,\n  including while microphone and speech permissions are being granted.\n- The Founder offer is now the first and default perpetual-license option.\n  Checkout uses fixed USD pricing, supports promotion codes, and works from the\n  Hibiscus website.\n- License delivery is now durable and retryable. Approved no-cost family\n  promotions are handled safely, while unrelated Stripe checkout events are\n  ignored.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus-0.8.28.zip",
+    "version": "0.8.29",
+    "build": 37,
+    "commit": "a43cadb",
+    "notes": "# Hibiscus 0.8.29\n\nThis update makes model selection, workspace navigation, and the AI writing\nsurface clearer and more predictable.\n\n- AI provider settings can now show the complete matching model catalog, and\n  model search filters the full catalog so hidden models remain discoverable.\n- Control-1 through Control-9 switch directly to the corresponding workspace\n  in sidebar order.\n- When text is selected in a note, the assistant now shows an explicit preview\n  and character count so it is clear that only the selected passage is being\n  sent for editing.\n- The assistant composer now uses the full input area for typing and focus. Its\n  Plus button opens a compact, arrowless action overlay directly above the\n  control without moving the conversation.\n- Editor AI actions use the same flat, arrowless menu treatment, with cleaner\n  row hover behavior.\n- Sidebar and editor toolbar icons have consistent hover styling; New Note now\n  uses a balanced Plus icon.\n- Side panels use a clean white base in light appearance while preserving the\n  configured translucency level.\n- Toolbar glass is clipped to its controls so it no longer casts a white veil\n  across the first line of note text.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.29/Hibiscus-0.8.29.zip",
     "minOS": "14.0",
-    "sha256": "53481477f2606d7350fe859d23d9741fcbe0635f1f5a4d4e58064dcb54a9ecee"
+    "sha256": "115aa4285c3d94f238e74ffb256fccb73f6497de9005ab7c3025ccf0d512abc9"
   }
 }

@@ -4,6 +4,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.29</title>
+            <pubDate>Tue, 01 Sep 2026 16:26:13 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>0.8.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"># Hibiscus 0.8.29
+
+This update makes model selection, workspace navigation, and the AI writing
+surface clearer and more predictable.
+
+- AI provider settings can now show the complete matching model catalog, and
+  model search filters the full catalog so hidden models remain discoverable.
+- Control-1 through Control-9 switch directly to the corresponding workspace
+  in sidebar order.
+- When text is selected in a note, the assistant now shows an explicit preview
+  and character count so it is clear that only the selected passage is being
+  sent for editing.
+- The assistant composer now uses the full input area for typing and focus. Its
+  Plus button opens a compact, arrowless action overlay directly above the
+  control without moving the conversation.
+- Editor AI actions use the same flat, arrowless menu treatment, with cleaner
+  row hover behavior.
+- Sidebar and editor toolbar icons have consistent hover styling; New Note now
+  uses a balanced Plus icon.
+- Side panels use a clean white base in light appearance while preserving the
+  configured translucency level.
+- Toolbar glass is clipped to its controls so it no longer casts a white veil
+  across the first line of note text.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.29/Hibiscus-0.8.29.zip" length="56854774" type="application/octet-stream" sparkle:edSignature="rypIqJryxCsZdia2bGcmSkShwv0tMgPTeyrzickDi0mrJGLdp3E/zP0EPXV65CC23Lugz+eWPRoQN4AekR6aAQ=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.29/Hibiscus37-36.delta" sparkle:deltaFrom="36" length="10876638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sFkm+tTR2Bbo+dlGVjqBiFcdJPyHQYGEbPD+rK2i+1RJrmVrt7WAs6IVVe4jHysG0fPiJFy79cA1i0MQBA22Dw=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.29/Hibiscus37-35.delta" sparkle:deltaFrom="35" length="11023258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iKsOEmPEb7isoecOX81niZeh8dyVVNZw6dD6Svdzb11j7uIryY03KiwvCpawMZUaecUjHhOabNaaYw5N/okbDg=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.28</title>
             <pubDate>Sun, 30 Aug 2026 23:36:25 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -61,28 +98,8 @@ Hibiscus ready when you want to capture something quickly.
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.27/Hibiscus35-33.delta" sparkle:deltaFrom="33" length="2738022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TXoytu9Ee0bRzoy3xmnUqMK2kYPc3y8jLuu96ICviLXhvp7/m9K/uTNsPFS91r3AXDNdd14QMtzP0N6XN9HfCQ=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.26</title>
-            <pubDate>Thu, 27 Aug 2026 13:18:39 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>0.8.26</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">Hibiscus 0.8.26 makes the main writing surface feel native and uninterrupted.
-
-- The editor is now flat and edge-to-edge, with identical one-pixel dividers and generous invisible resize targets on both sides.
-- The formatting toolbar keeps its rounded ends and uses the native Liquid Glass geometry on macOS 26.
-- Typing `-&gt;` or `&lt;-` now creates the matching right or left arrow without breaking undo.
-- Alternative Dock icons retain the standard macOS icon footprint.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus-0.8.26.zip" length="47430622" type="application/octet-stream" sparkle:edSignature="CZ3Tu//uWrr694OqTxVA4moeHujSgSEBqiWHO24mtKG4AUJXuic09PFPV/gXNMaWHXl2NQ7h2e9v0dXifbQnAA=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus34-33.delta" sparkle:deltaFrom="33" length="2765330" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pMLf7/rsAwNsd9y+yPYp+qF8bN4nsEApihBFGerAqhyq0oBIZuX8c0LnEJPXJbEFmFADbQnItQfE5DcLCKIADg=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.26/Hibiscus34-32.delta" sparkle:deltaFrom="32" length="2796374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XKY/dliZlBMHh7RHC9NA1y8zKwTBuLq63rkSSI8HEnFMdHDSuC4RQp5bJa3nLKLqXg5G3DzPMHa1nLgP8mv0Dw=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 9fhuf34a5ee2tRwugSb4xDMcXrzm0r56IsVyLDOuPLJVCjWkpwcvdKKAWUU3jIp2VgGrz55hN7LK4HAb26zYAA==
-length: 7712
+edSignature: xqy0AUKf8KPC5sxKgwOyolQOxWWkJWrQnrynFDC0sUU5PtUb2MpwnAVLtRShOaNeLiq2uabgea65OKiy7oQcDQ==
+length: 8434
 -->
