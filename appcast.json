@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.30",
-    "build": 38,
-    "commit": "912c392",
-    "notes": "# Hibiscus 0.8.30\n\nThis update restores reliable AI setup and polishes the assistant, menus, and\nwindow controls.\n\n- Explicitly saving or validating a usable AI provider, or choosing an enabled\n  model, now re-enables AI if it was turned off during setup. The assistant\n  distinguishes AI being turned off from a missing provider configuration and\n  offers an Enable AI action when the selected model is ready.\n- AI stays off until you explicitly enable it or configure a usable provider;\n  background model discovery does not change that choice or silently replace\n  your selected model.\n- Provider API-key and model-search fields are easier to focus and use. Model\n  search also matches provider names in Settings and the assistant model picker.\n- Assistant Plus and model menus no longer compete with input focus. Menus\n  dismiss with Escape or an outside click, and the editor AI menu fits its\n  contents instead of stretching down the window.\n- The sidebar hover menu has its own readable background so note text no\n  longer shows through it. Window traffic lights appear only with the permanent\n  sidebar; closing it shifts the editor controls left, and reopening it keeps\n  all three window buttons aligned.\n- Quick Capture and its setup preview now use a Plus icon. Settings sidebar\n  icons are centered more consistently within their backgrounds.\n- The menu-bar AI action header shows the selected model without a redundant\n  AI Actions title. Action feedback uses a rounded shadow with room to render\n  without clipping.\n\nIf you previously chose to keep AI off, use Enable AI in the assistant or\nexplicitly save or validate your provider in Settings to resume it. No note\nmigration is required.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.30/Hibiscus-0.8.30.zip",
+    "version": "0.8.31",
+    "build": 39,
+    "commit": "0eb1bc8",
+    "notes": "# Hibiscus 0.8.31\n\nThis update fixes AI menu outlines, keeps your license key private by default,\nand remembers your chosen Dock icon after quitting.\n\n- Opening the editor AI menu or the assistant Plus menu no longer draws a blue\n  outline around the entire panel. Escape still closes the menu and returns\n  focus to the editor or message input.\n- Your license key is hidden by default in Settings. Click the masked key or\n  eye icon to reveal it; hide it again with the eye icon. It is hidden again\n  when you leave the details screen or the app becomes inactive.\n- Your selected app icon stays in the Dock after you quit Hibiscus. Changes in\n  Appearance settings update the Dock icon immediately, while Finder keeps\n  the original Hibiscus icon.\n\nNo note migration or API-key re-entry is required.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.31/Hibiscus-0.8.31.zip",
     "minOS": "14.0",
-    "sha256": "bd7b41c2895f9559f2932b835ad2123ed628491ae882a6070b632d66f7115b1f"
+    "sha256": "822c22025eb8e06c32b83e29d8a055c1487c1172c938a6eb61c83792711b1073"
   }
 }
