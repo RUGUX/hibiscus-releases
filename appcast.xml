@@ -4,36 +4,56 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.30</title>
+            <pubDate>Tue, 01 Sep 2026 22:16:16 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>0.8.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"># Hibiscus 0.8.30
+
+This update restores reliable AI setup and polishes the assistant, menus, and
+window controls.
+
+- Explicitly saving or validating a usable AI provider, or choosing an enabled
+  model, now re-enables AI if it was turned off during setup. The assistant
+  distinguishes AI being turned off from a missing provider configuration and
+  offers an Enable AI action when the selected model is ready.
+- AI stays off until you explicitly enable it or configure a usable provider;
+  background model discovery does not change that choice or silently replace
+  your selected model.
+- Provider API-key and model-search fields are easier to focus and use. Model
+  search also matches provider names in Settings and the assistant model picker.
+- Assistant Plus and model menus no longer compete with input focus. Menus
+  dismiss with Escape or an outside click, and the editor AI menu fits its
+  contents instead of stretching down the window.
+- The sidebar hover menu has its own readable background so note text no
+  longer shows through it. Window traffic lights appear only with the permanent
+  sidebar; closing it shifts the editor controls left, and reopening it keeps
+  all three window buttons aligned.
+- Quick Capture and its setup preview now use a Plus icon. Settings sidebar
+  icons are centered more consistently within their backgrounds.
+- The menu-bar AI action header shows the selected model without a redundant
+  AI Actions title. Action feedback uses a rounded shadow with room to render
+  without clipping.
+
+If you previously chose to keep AI off, use Enable AI in the assistant or
+explicitly save or validate your provider in Settings to resume it. No note
+migration is required.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.30/Hibiscus-0.8.30.zip" length="47519194" type="application/octet-stream" sparkle:edSignature="3kMScpr+bj114pQl96iJDO9pwzVoZWGe4/fYboDx8jQZ454gBqFvYSsxTckeDxiAe7fY/dtIdRigMITB6E0aBA=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.30/Hibiscus38-37.delta" sparkle:deltaFrom="37" length="3302274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Egbn1QMZZcXDKkO1nZRYDdQZsINPYliLmCV0j92BJeirub64qb+sVlF1qMiFZbu4mfnpQE9vm4DMREXMQmDsCw=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.30/Hibiscus38-36.delta" sparkle:deltaFrom="36" length="3667466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="333JiK1mUuofO/mSrFn+4Gj5L+cMS73db3PkbOgt9sIa75NnhFoGy4PXeBK3LZePlddXIRJqIJgC3s0W94HbDg=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.29</title>
             <pubDate>Tue, 01 Sep 2026 16:26:13 -0400</pubDate>
             <link>https://hibiscus.page</link>
             <sparkle:version>37</sparkle:version>
             <sparkle:shortVersionString>0.8.29</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"># Hibiscus 0.8.29
-
-This update makes model selection, workspace navigation, and the AI writing
-surface clearer and more predictable.
-
-- AI provider settings can now show the complete matching model catalog, and
-  model search filters the full catalog so hidden models remain discoverable.
-- Control-1 through Control-9 switch directly to the corresponding workspace
-  in sidebar order.
-- When text is selected in a note, the assistant now shows an explicit preview
-  and character count so it is clear that only the selected passage is being
-  sent for editing.
-- The assistant composer now uses the full input area for typing and focus. Its
-  Plus button opens a compact, arrowless action overlay directly above the
-  control without moving the conversation.
-- Editor AI actions use the same flat, arrowless menu treatment, with cleaner
-  row hover behavior.
-- Sidebar and editor toolbar icons have consistent hover styling; New Note now
-  uses a balanced Plus icon.
-- Side panels use a clean white base in light appearance while preserving the
-  configured translucency level.
-- Toolbar glass is clipped to its controls so it no longer casts a white veil
-  across the first line of note text.
-</description>
             <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.29/Hibiscus-0.8.29.zip" length="56854774" type="application/octet-stream" sparkle:edSignature="rypIqJryxCsZdia2bGcmSkShwv0tMgPTeyrzickDi0mrJGLdp3E/zP0EPXV65CC23Lugz+eWPRoQN4AekR6aAQ=="></enclosure>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.29/Hibiscus37-36.delta" sparkle:deltaFrom="36" length="10876638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sFkm+tTR2Bbo+dlGVjqBiFcdJPyHQYGEbPD+rK2i+1RJrmVrt7WAs6IVVe4jHysG0fPiJFy79cA1i0MQBA22Dw=="></enclosure>
@@ -47,59 +67,14 @@ surface clearer and more predictable.
             <sparkle:version>36</sparkle:version>
             <sparkle:shortVersionString>0.8.28</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"># Hibiscus 0.8.28
-
-This release restores the fast, predictable note-creation flow and keeps
-Hibiscus ready when you want to capture something quickly.
-
-- Command-N and New Note now create an Untitled note immediately in the normal
-  editor. You can create as many new notes as you need, with reliable focus and
-  uninterrupted typing.
-- The extra screen before the untitled editor has been removed.
-- Command-Delete now deletes a multi-note selection through one in-place
-  confirmation instead of opening each note in a separate window.
-- Quick Capture keeps your text when you choose Improve or another AI action.
-  Ordinary edits are no longer incorrectly labeled “Edited by AI.”
-- Settings can now show or hide the Hibiscus menu-bar icon without disabling
-  global shortcuts.
-- Hibiscus can remain available after its windows are closed, keeping Quick
-  Capture and global shortcuts ready. Choosing Quit still exits the app.
-- Compact on-device Apple dictation now stays in its focused recording flow,
-  including while microphone and speech permissions are being granted.
-- The Founder offer is now the first and default perpetual-license option.
-  Checkout uses fixed USD pricing, supports promotion codes, and works from the
-  Hibiscus website.
-- License delivery is now durable and retryable. Approved no-cost family
-  promotions are handled safely, while unrelated Stripe checkout events are
-  ignored.
-</description>
             <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus-0.8.28.zip" length="47440802" type="application/octet-stream" sparkle:edSignature="5T7T2gOolfKVQyWjMqfjyGetfSF0dL4Du2DmE1Z/bwjnzi+zHiHjoc4Y6y+RmVIr10alY6B4JqpideKDGMpwBw=="></enclosure>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus36-35.delta" sparkle:deltaFrom="35" length="3161310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kVDrymKMW8Imw7/+fFiD4CLyFGIwdAJUmHodoaAOWONTzETu54F6WtJoYi3nZryoeiMMG/2K3KieZ9ThADsQAg=="></enclosure>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.28/Hibiscus36-34.delta" sparkle:deltaFrom="34" length="3127894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pfDHSM2H/5gqdac5qz2KMkAt1b16d6FzFizbrmRIbXiw/y/QcNHA26HzkYUAHZ5BKBmQH1wRMWFRcqRGugDXAw=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.27</title>
-            <pubDate>Sun, 30 Aug 2026 14:51:21 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>35</sparkle:version>
-            <sparkle:shortVersionString>0.8.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown">Hibiscus 0.8.27 fixes a license recovery problem that could affect customers updating from older signed builds.
-
-- An existing Mac is no longer mistaken for a new device when its legacy Keychain item is temporarily unavailable.
-- Paid licenses affected by duplicate device seats from Hibiscus 0.8.11–0.8.16 can now recover safely by activating again with the original license key.
-- Normal two-Mac seat limits and verified device management remain unchanged.
-</description>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.27/Hibiscus-0.8.27.zip" length="47432404" type="application/octet-stream" sparkle:edSignature="nmVdc765cQUBKf3ZTURxWMeGn6TDm8y8FLvla3cR2rQrSWjRAptztCF+0Uupvlt2jl1HRoWcT16pXn9kL2FZDA=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.27/Hibiscus35-34.delta" sparkle:deltaFrom="34" length="2071886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZmRIAU6r8bV3WwQ7Js/Ea8T8WOZXR6qZYGD3S1KgjoHEWs0qbmraa6nAF14Jp6bdsaJQCXDySghYekq+zXoIDw=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.27/Hibiscus35-33.delta" sparkle:deltaFrom="33" length="2738022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TXoytu9Ee0bRzoy3xmnUqMK2kYPc3y8jLuu96ICviLXhvp7/m9K/uTNsPFS91r3AXDNdd14QMtzP0N6XN9HfCQ=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: xqy0AUKf8KPC5sxKgwOyolQOxWWkJWrQnrynFDC0sUU5PtUb2MpwnAVLtRShOaNeLiq2uabgea65OKiy7oQcDQ==
-length: 8434
+edSignature: +3Sjv45iov2BdWm2pnd4a2b3g4mFwH6C5OQ47rram/n4n8yhG45LxaQEWT2A6zaG86j0F+lUvvKxUEMOXYesBQ==
+length: 6935
 -->
