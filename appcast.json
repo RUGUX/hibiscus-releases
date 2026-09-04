@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.31",
-    "build": 39,
-    "commit": "0eb1bc8",
-    "notes": "# Hibiscus 0.8.31\n\nThis update fixes AI menu outlines, keeps your license key private by default,\nand remembers your chosen Dock icon after quitting.\n\n- Opening the editor AI menu or the assistant Plus menu no longer draws a blue\n  outline around the entire panel. Escape still closes the menu and returns\n  focus to the editor or message input.\n- Your license key is hidden by default in Settings. Click the masked key or\n  eye icon to reveal it; hide it again with the eye icon. It is hidden again\n  when you leave the details screen or the app becomes inactive.\n- Your selected app icon stays in the Dock after you quit Hibiscus. Changes in\n  Appearance settings update the Dock icon immediately, while Finder keeps\n  the original Hibiscus icon.\n\nNo note migration or API-key re-entry is required.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.31/Hibiscus-0.8.31.zip",
+    "version": "0.8.32",
+    "build": 40,
+    "commit": "c15845b",
+    "notes": "# Hibiscus 0.8.32\n\nFast1 reduces repeated work in large note libraries and makes optional AI\nprocessing after import easier to control.\n\n- The sidebar reuses its note ordering and groups while you write or receive\n  an AI reply, instead of rebuilding them for content-only changes.\n- AI processing after import now runs at most two actions at once. Track\n  progress, pause, cancel, or retry failed actions in Settings. Actions on the\n  same note run in order, and cancelling AI processing keeps your imported notes.\n- Clicking an empty part of the Assistant input now sends the very first\n  character to the message input, without changing the open note.\n- Saving a new API key or changing a custom endpoint prevents an older\n  validation response from overwriting the new connection state.\n- API keys saved through the local Keychain fallback are no longer removed\n  by synchronization cleanup. A local fallback is reported as local storage.\n- Note search uses the same workspace scope as the sidebar, including the\n  default workspace during startup.\n- The sidebar can display a library containing duplicate note identifiers\n  without crashing. Existing note records are not deleted or merged.\n\nNo note migration or API-key re-entry is required.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.32/Hibiscus-0.8.32.zip",
     "minOS": "14.0",
-    "sha256": "822c22025eb8e06c32b83e29d8a055c1487c1172c938a6eb61c83792711b1073"
+    "sha256": "34a5652c186041ab6e8dd2208bfac890d24dcec883afbf994bd325a5f8204d15"
   }
 }
