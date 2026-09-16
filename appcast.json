@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.33",
-    "build": 41,
-    "commit": "3890d710",
-    "notes": "# Hibiscus 0.8.33\n\nThis update improves everyday editing, adds dictation choices, and brings\nin-app purchase prices in line with the current launch offer.\n\n- Founder now shows the $19 one-time launch price with its $39 regular price.\n  Lifetime Updates is $99 one time. Existing purchases and licenses are unchanged.\n- Command-N preserves early typing while the new note's editor is opening.\n  The note-search keyboard shortcut also places typing in the search field.\n- Apply italic, bold, underline, strikethrough, highlight, and text color across\n  multiple selected lines. Heading and Body actions work across the selection;\n  inline formatting preserves Unicode text and supports a single undo action.\n- Choose Always show, Auto-hide, or Hidden for the bottom formatting bar in\n  Settings > Appearance. Formatting keyboard shortcuts remain available.\n- Dictation adds ElevenLabs Scribe v2, Soniox v5, and newer OpenAI transcription\n  choices. Hosted models require their provider key and upload audio after Done.\n  Whisper Large v3 Turbo is the recommended local download, including Turkish;\n  your existing model selection is preserved.\n- Dictation Settings saves only API-key fields you edit, leaving other saved\n  provider keys untouched.\n- Unsupported native window-tab commands are removed from the View menu.\n- Setup's One Pro Features page uses the native sheet's rounded corners,\n  removing the extra white edges around the dark page.\n\nThe intermittent resize crash and broader large-library slowdown remain under\ninvestigation; this update does not claim to resolve them. Meta dictation is not\nincluded. No note migration is required.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.33/Hibiscus-0.8.33.zip",
+    "version": "0.8.34",
+    "build": 42,
+    "commit": "8f197042",
+    "notes": "# Hibiscus 0.8.34\n\nThis update refreshes code blocks and fixes a window-management issue when a\nlicense-required action is selected.\n\n- New Project now shows a license-required notice only in the window where\n  the action started. Other windows stay minimized, and repeated clicks do not\n  create duplicate notices. License access rules are unchanged.\n- Code blocks have a single rounded background, line numbers, and a copy button\n  that copies the code without its Markdown fences. Light and dark appearances\n  use matching colors, without the previous extra gray strips.\n- Tagged code blocks gain local syntax coloring for Swift, JavaScript,\n  TypeScript, JSX, TSX, Python, JSON, shell, SQL, HTML, XML, and CSS. Untagged or\n  unsupported languages remain plain text; no code is sent to a server.\n- Pasting code preserves indentation and blank lines. Smart quotes no longer\n  change quotation marks inside code, while normal prose keeps its own settings.\n- Copy buttons refresh when opening another note or pasting a new code block.\n  Fence markers appear only when their own line is being edited.\n\nNo note migration is required. This update does not claim to resolve the separate\nlarge-library slowdown or intermittent resize-crash reports.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.34/Hibiscus-0.8.34.zip",
     "minOS": "14.0",
-    "sha256": "02118db1474f1ff7fe51ae786138f3043c94adb50cff15c31b07015ca10e149b"
+    "sha256": "519bea91d592a29597499c3aee7e287e21af1de6de1af1ae5dd02c0c47df09ad"
   }
 }
