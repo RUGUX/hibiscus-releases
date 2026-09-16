@@ -4,35 +4,53 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.33</title>
+            <pubDate>Tue, 15 Sep 2026 23:35:31 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>0.8.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"># Hibiscus 0.8.33
+
+This update improves everyday editing, adds dictation choices, and brings
+in-app purchase prices in line with the current launch offer.
+
+- Founder now shows the $19 one-time launch price with its $39 regular price.
+  Lifetime Updates is $99 one time. Existing purchases and licenses are unchanged.
+- Command-N preserves early typing while the new note's editor is opening.
+  The note-search keyboard shortcut also places typing in the search field.
+- Apply italic, bold, underline, strikethrough, highlight, and text color across
+  multiple selected lines. Heading and Body actions work across the selection;
+  inline formatting preserves Unicode text and supports a single undo action.
+- Choose Always show, Auto-hide, or Hidden for the bottom formatting bar in
+  Settings &gt; Appearance. Formatting keyboard shortcuts remain available.
+- Dictation adds ElevenLabs Scribe v2, Soniox v5, and newer OpenAI transcription
+  choices. Hosted models require their provider key and upload audio after Done.
+  Whisper Large v3 Turbo is the recommended local download, including Turkish;
+  your existing model selection is preserved.
+- Dictation Settings saves only API-key fields you edit, leaving other saved
+  provider keys untouched.
+- Unsupported native window-tab commands are removed from the View menu.
+- Setup's One Pro Features page uses the native sheet's rounded corners,
+  removing the extra white edges around the dark page.
+
+The intermittent resize crash and broader large-library slowdown remain under
+investigation; this update does not claim to resolve them. Meta dictation is not
+included. No note migration is required.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.33/Hibiscus-0.8.33.zip" length="47743439" type="application/octet-stream" sparkle:edSignature="TzmysSnPFNX3X3Lu3gPDfspyvzDcpvngL7swP0WqSCbQb9HwtxPeyJkxWQm0mT1HRiwifLKugTmtRHj3KynxDw=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.33/Hibiscus41-40.delta" sparkle:deltaFrom="40" length="9667614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CvoTAwGTYtq36liSpvkyuazFDRnchsJhZcEQJJwIKzbTAWMsfRL5QkqAeCnjQDONV84A6F71DqJYZoBLSva+Ag=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.33/Hibiscus41-39.delta" sparkle:deltaFrom="39" length="9818394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w93+xZsDxDVQ+YSwPNM/KkgTGEidIGRNhXTeo6WdDsaEwCMTmJCgIXv2M5A2oNSkzvHFIUkGIkFNxU3vbC1kCA=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.32</title>
             <pubDate>Fri, 04 Sep 2026 18:50:07 -0400</pubDate>
             <link>https://hibiscus.page</link>
             <sparkle:version>40</sparkle:version>
             <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"># Hibiscus 0.8.32
-
-Fast1 reduces repeated work in large note libraries and makes optional AI
-processing after import easier to control.
-
-- The sidebar reuses its note ordering and groups while you write or receive
-  an AI reply, instead of rebuilding them for content-only changes.
-- AI processing after import now runs at most two actions at once. Track
-  progress, pause, cancel, or retry failed actions in Settings. Actions on the
-  same note run in order, and cancelling AI processing keeps your imported notes.
-- Clicking an empty part of the Assistant input now sends the very first
-  character to the message input, without changing the open note.
-- Saving a new API key or changing a custom endpoint prevents an older
-  validation response from overwriting the new connection state.
-- API keys saved through the local Keychain fallback are no longer removed
-  by synchronization cleanup. A local fallback is reported as local storage.
-- Note search uses the same workspace scope as the sidebar, including the
-  default workspace during startup.
-- The sidebar can display a library containing duplicate note identifiers
-  without crashing. Existing note records are not deleted or merged.
-
-No note migration or API-key re-entry is required.
-</description>
             <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.32/Hibiscus-0.8.32.zip" length="47679019" type="application/octet-stream" sparkle:edSignature="PFdvJMxfafEtUqDan7u1xnCL3bvkMORxh20jXuRgNaesKwoisFXY5B+aF7F+PRfGWmlhgIf0bmhdVXlLw5/dBA=="></enclosure>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.32/Hibiscus40-39.delta" sparkle:deltaFrom="39" length="3409654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HTiFYLB5rg2oz7hK0gdf0HU2VwGQBggRVDwfAf6NVUB/+U7ad0G6o1jVF5iookYxIXAKHvYrLFJ2xySGtIsxCg=="></enclosure>
@@ -46,44 +64,14 @@ No note migration or API-key re-entry is required.
             <sparkle:version>39</sparkle:version>
             <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"># Hibiscus 0.8.31
-
-This update fixes AI menu outlines, keeps your license key private by default,
-and remembers your chosen Dock icon after quitting.
-
-- Opening the editor AI menu or the assistant Plus menu no longer draws a blue
-  outline around the entire panel. Escape still closes the menu and returns
-  focus to the editor or message input.
-- Your license key is hidden by default in Settings. Click the masked key or
-  eye icon to reveal it; hide it again with the eye icon. It is hidden again
-  when you leave the details screen or the app becomes inactive.
-- Your selected app icon stays in the Dock after you quit Hibiscus. Changes in
-  Appearance settings update the Dock icon immediately, while Finder keeps
-  the original Hibiscus icon.
-
-No note migration or API-key re-entry is required.
-</description>
             <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.31/Hibiscus-0.8.31.zip" length="47587924" type="application/octet-stream" sparkle:edSignature="9nlKr7rL8YhPOvpuyLSPz8knfYV7X1aqLDIJflR+nbDOZM03pqdO6LR+N7o3NhzMXljBnvDIG+xgmwkm/janAw=="></enclosure>
             <sparkle:deltas>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.31/Hibiscus39-38.delta" sparkle:deltaFrom="38" length="3044798" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NRH7qxqOgR6kzEesBhET2L+vJCxzDpVxqXEw4ahoL+kjOOwuaI/fAGZ5E3CZWZs87CG/URtHooRs7x6/YIejBA=="></enclosure>
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.31/Hibiscus39-37.delta" sparkle:deltaFrom="37" length="3515534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DF7oqsozBLp4BY/Mp3nwvAdcEOuoV4fPX16xKvxzOn6yhJNoo1kfzJeDjKfrbzbM95gDMBJseajnTKTwu2o4Dw=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.30</title>
-            <pubDate>Tue, 01 Sep 2026 22:16:16 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>0.8.30</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.30/Hibiscus-0.8.30.zip" length="47519194" type="application/octet-stream" sparkle:edSignature="3kMScpr+bj114pQl96iJDO9pwzVoZWGe4/fYboDx8jQZ454gBqFvYSsxTckeDxiAe7fY/dtIdRigMITB6E0aBA=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.30/Hibiscus38-37.delta" sparkle:deltaFrom="37" length="3302274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Egbn1QMZZcXDKkO1nZRYDdQZsINPYliLmCV0j92BJeirub64qb+sVlF1qMiFZbu4mfnpQE9vm4DMREXMQmDsCw=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.30/Hibiscus38-36.delta" sparkle:deltaFrom="36" length="3667466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="333JiK1mUuofO/mSrFn+4Gj5L+cMS73db3PkbOgt9sIa75NnhFoGy4PXeBK3LZePlddXIRJqIJgC3s0W94HbDg=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: qDUYYYGTp+IkfQOYY2imFDEVLeYCTMwuY2UIDeXwb+vP1Bx7oET0czN/KMNEuMREj6OXev3sDz3/7pbMev79Ag==
-length: 7343
+edSignature: Rg/U/ZhrzmHPBCoZl9KTJnM9waAbNB/IBV7h1rBSnQvC/+dG+qSZb7eO66mGhGgfBeWZy4Liw9hvfI+RXRN7Cg==
+length: 6879
 -->

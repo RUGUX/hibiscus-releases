@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.32",
-    "build": 40,
-    "commit": "c15845b",
-    "notes": "# Hibiscus 0.8.32\n\nFast1 reduces repeated work in large note libraries and makes optional AI\nprocessing after import easier to control.\n\n- The sidebar reuses its note ordering and groups while you write or receive\n  an AI reply, instead of rebuilding them for content-only changes.\n- AI processing after import now runs at most two actions at once. Track\n  progress, pause, cancel, or retry failed actions in Settings. Actions on the\n  same note run in order, and cancelling AI processing keeps your imported notes.\n- Clicking an empty part of the Assistant input now sends the very first\n  character to the message input, without changing the open note.\n- Saving a new API key or changing a custom endpoint prevents an older\n  validation response from overwriting the new connection state.\n- API keys saved through the local Keychain fallback are no longer removed\n  by synchronization cleanup. A local fallback is reported as local storage.\n- Note search uses the same workspace scope as the sidebar, including the\n  default workspace during startup.\n- The sidebar can display a library containing duplicate note identifiers\n  without crashing. Existing note records are not deleted or merged.\n\nNo note migration or API-key re-entry is required.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.32/Hibiscus-0.8.32.zip",
+    "version": "0.8.33",
+    "build": 41,
+    "commit": "3890d710",
+    "notes": "# Hibiscus 0.8.33\n\nThis update improves everyday editing, adds dictation choices, and brings\nin-app purchase prices in line with the current launch offer.\n\n- Founder now shows the $19 one-time launch price with its $39 regular price.\n  Lifetime Updates is $99 one time. Existing purchases and licenses are unchanged.\n- Command-N preserves early typing while the new note's editor is opening.\n  The note-search keyboard shortcut also places typing in the search field.\n- Apply italic, bold, underline, strikethrough, highlight, and text color across\n  multiple selected lines. Heading and Body actions work across the selection;\n  inline formatting preserves Unicode text and supports a single undo action.\n- Choose Always show, Auto-hide, or Hidden for the bottom formatting bar in\n  Settings > Appearance. Formatting keyboard shortcuts remain available.\n- Dictation adds ElevenLabs Scribe v2, Soniox v5, and newer OpenAI transcription\n  choices. Hosted models require their provider key and upload audio after Done.\n  Whisper Large v3 Turbo is the recommended local download, including Turkish;\n  your existing model selection is preserved.\n- Dictation Settings saves only API-key fields you edit, leaving other saved\n  provider keys untouched.\n- Unsupported native window-tab commands are removed from the View menu.\n- Setup's One Pro Features page uses the native sheet's rounded corners,\n  removing the extra white edges around the dark page.\n\nThe intermittent resize crash and broader large-library slowdown remain under\ninvestigation; this update does not claim to resolve them. Meta dictation is not\nincluded. No note migration is required.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.33/Hibiscus-0.8.33.zip",
     "minOS": "14.0",
-    "sha256": "34a5652c186041ab6e8dd2208bfac890d24dcec883afbf994bd325a5f8204d15"
+    "sha256": "02118db1474f1ff7fe51ae786138f3043c94adb50cff15c31b07015ca10e149b"
   }
 }
