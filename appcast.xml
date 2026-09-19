@@ -4,6 +4,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Hibiscus</title>
         <item>
+            <title>0.8.35</title>
+            <pubDate>Sat, 19 Sep 2026 12:51:58 -0400</pubDate>
+            <link>https://hibiscus.page</link>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>0.8.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"># Hibiscus 0.8.35
+
+This update gives the editor and Note Assistant a quieter, more consistent
+interface, with more room to write and quicker keyboard interactions.
+
+- The top toolbar uses compact, consistently sized icons. A thin separator
+  replaces the editor's top fade, and the first line has more breathing room.
+- The editor caret is slightly thicker and follows your interface accent or
+  note theme. Its color stays correct as the editor updates without changing
+  your text or selection.
+- Note Assistant has a refreshed conversation layout and an integrated composer
+  with Plus, model, and reasoning controls. Selected-text context is clearer,
+  model search stays close to the input, and reply actions are more compact.
+- Editor AI and assistant menus open with short, anchored transitions. Escape
+  closes them immediately and restores typing focus; repeated opening and
+  closing keeps the controls responsive.
+- Formatting buttons have a gentler press response, and AI edit confirmations
+  use shorter, quieter transitions. Reduce Motion remains respected.
+- Keyboard panel shortcuts and Quick Capture show and hide immediately, without
+  waiting for an animation before you can continue.
+
+No note migration is required. This interface update does not claim to resolve
+the separate large-library slowdown or intermittent resize-crash reports.
+</description>
+            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.35/Hibiscus-0.8.35.zip" length="47811722" type="application/octet-stream" sparkle:edSignature="n/6ip3qNKQRWgohi4d5H7prt0wHXaWG+Rn/LFMTutsJcYxw4hOs63hzAgwfmrmYnFcOMXUp4YxoE4QHGw/j2Aw=="></enclosure>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.35/Hibiscus43-42.delta" sparkle:deltaFrom="42" length="3590586" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XdAIILaPS9bvYPwCjJT3ag7Knb8rglHMm2HdudcFHsDn+xpGK6puOK9nb5czFvkSrzkpI7S8KkvDNvV1byFHCg=="></enclosure>
+                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.35/Hibiscus43-41.delta" sparkle:deltaFrom="41" length="3836314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BIXAbJ1IrisqqaM4qGlRis7lT49/MCBVS78smMTVh/RhleeWasyIb/0wWP2uxuyRljM1j4j9Xz6Yhb+aY0WTAA=="></enclosure>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.8.34</title>
             <pubDate>Wed, 16 Sep 2026 16:19:06 -0400</pubDate>
             <link>https://hibiscus.page</link>
@@ -79,21 +116,8 @@ included. No note migration is required.
                 <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.33/Hibiscus41-39.delta" sparkle:deltaFrom="39" length="9818394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w93+xZsDxDVQ+YSwPNM/KkgTGEidIGRNhXTeo6WdDsaEwCMTmJCgIXv2M5A2oNSkzvHFIUkGIkFNxU3vbC1kCA=="></enclosure>
             </sparkle:deltas>
         </item>
-        <item>
-            <title>0.8.32</title>
-            <pubDate>Fri, 04 Sep 2026 18:50:07 -0400</pubDate>
-            <link>https://hibiscus.page</link>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.32/Hibiscus-0.8.32.zip" length="47679019" type="application/octet-stream" sparkle:edSignature="PFdvJMxfafEtUqDan7u1xnCL3bvkMORxh20jXuRgNaesKwoisFXY5B+aF7F+PRfGWmlhgIf0bmhdVXlLw5/dBA=="></enclosure>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.32/Hibiscus40-39.delta" sparkle:deltaFrom="39" length="3409654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HTiFYLB5rg2oz7hK0gdf0HU2VwGQBggRVDwfAf6NVUB/+U7ad0G6o1jVF5iookYxIXAKHvYrLFJ2xySGtIsxCg=="></enclosure>
-                <enclosure url="https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.32/Hibiscus40-38.delta" sparkle:deltaFrom="38" length="3669106" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yJ3j3FWKQGGx7587oh9Qdr5qOU4wtrZXQo/gH0kQDc2+NbLtcXL8y5tnUpn9/mRcTmx7FY7aCUM49DcaBvpODQ=="></enclosure>
-            </sparkle:deltas>
-        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: aq4+4plSwfa5by0AzVmaKOewuiid1o8wuFSvNYwccaV0bYQzjFQjDL0os7Oxs2tcut83O2uUtsLD8dJqSbHlDQ==
-length: 8189
+edSignature: 3bxdqsrjlYCNvRTKMYIX8djk3UJZguID3qj37thjfO/KXvZpOpMaDiAtmpg8eGcBxB9msWqxsc95x1jOzJjZBA==
+length: 9613
 -->

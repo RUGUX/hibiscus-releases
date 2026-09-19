@@ -1,11 +1,11 @@
 {
   "stable": {
-    "version": "0.8.34",
-    "build": 42,
-    "commit": "8f197042",
-    "notes": "# Hibiscus 0.8.34\n\nThis update refreshes code blocks and fixes a window-management issue when a\nlicense-required action is selected.\n\n- New Project now shows a license-required notice only in the window where\n  the action started. Other windows stay minimized, and repeated clicks do not\n  create duplicate notices. License access rules are unchanged.\n- Code blocks have a single rounded background, line numbers, and a copy button\n  that copies the code without its Markdown fences. Light and dark appearances\n  use matching colors, without the previous extra gray strips.\n- Tagged code blocks gain local syntax coloring for Swift, JavaScript,\n  TypeScript, JSX, TSX, Python, JSON, shell, SQL, HTML, XML, and CSS. Untagged or\n  unsupported languages remain plain text; no code is sent to a server.\n- Pasting code preserves indentation and blank lines. Smart quotes no longer\n  change quotation marks inside code, while normal prose keeps its own settings.\n- Copy buttons refresh when opening another note or pasting a new code block.\n  Fence markers appear only when their own line is being edited.\n\nNo note migration is required. This update does not claim to resolve the separate\nlarge-library slowdown or intermittent resize-crash reports.",
-    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.34/Hibiscus-0.8.34.zip",
+    "version": "0.8.35",
+    "build": 43,
+    "commit": "b64003ce",
+    "notes": "# Hibiscus 0.8.35\n\nThis update gives the editor and Note Assistant a quieter, more consistent\ninterface, with more room to write and quicker keyboard interactions.\n\n- The top toolbar uses compact, consistently sized icons. A thin separator\n  replaces the editor's top fade, and the first line has more breathing room.\n- The editor caret is slightly thicker and follows your interface accent or\n  note theme. Its color stays correct as the editor updates without changing\n  your text or selection.\n- Note Assistant has a refreshed conversation layout and an integrated composer\n  with Plus, model, and reasoning controls. Selected-text context is clearer,\n  model search stays close to the input, and reply actions are more compact.\n- Editor AI and assistant menus open with short, anchored transitions. Escape\n  closes them immediately and restores typing focus; repeated opening and\n  closing keeps the controls responsive.\n- Formatting buttons have a gentler press response, and AI edit confirmations\n  use shorter, quieter transitions. Reduce Motion remains respected.\n- Keyboard panel shortcuts and Quick Capture show and hide immediately, without\n  waiting for an animation before you can continue.\n\nNo note migration is required. This interface update does not claim to resolve\nthe separate large-library slowdown or intermittent resize-crash reports.",
+    "zip": "https://github.com/RUGUX/hibiscus-releases/releases/download/v0.8.35/Hibiscus-0.8.35.zip",
     "minOS": "14.0",
-    "sha256": "519bea91d592a29597499c3aee7e287e21af1de6de1af1ae5dd02c0c47df09ad"
+    "sha256": "73ee16ec6994144b7bc38ff99b610b501afb505ec9aa76c977cc716f7f7f8d1d"
   }
 }
